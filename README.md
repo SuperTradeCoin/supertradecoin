@@ -8,8 +8,6 @@ MineGoldCoin is a cryptocurrency like Bitcoin, although it does not use SHA256 a
 
 https://minegoldcoin.com/
 
-## License – Much license
-
  - Currency unit : MGC
  - Algorithm : Scrypt
  - Block Interval : 1 minute (60 seconds)
