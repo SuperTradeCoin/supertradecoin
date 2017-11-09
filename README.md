@@ -34,16 +34,16 @@ Premine : None
   - [Windows Build Notes](doc/build-msw.md)
 
  
-# mingoldcoin.conf
--rpcuser=mgcuser
--rpcpassword=mgcpassword
--listen=1
--txindex=1
--rpcport=34436
--addnode=192.168.193.137
--addnode=192.168.193.135
--addnode=165.227.124.168
--addnode=159.203.111.166
+# minegoldcoin.conf
+  - rpcuser=mgcuser
+  - rpcpassword=mgcpassword
+  - listen=1
+  - txindex=1
+  - rpcport=34436
+  - addnode=192.168.193.137
+  - addnode=192.168.193.135
+  - addnode=165.227.124.168
+  - addnode=159.203.111.166
 
 
 **DEBUG_LOCKORDER**
