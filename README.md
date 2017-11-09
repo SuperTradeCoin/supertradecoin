@@ -10,19 +10,19 @@ https://minegoldcoin.com/
 
 ## License – Much license
 
-Currency unit : MGC
-Algorithm : Scrypt
-Block Interval : 1 minute (60 seconds)
-Difficulty Retarget : Every block (using Kimoto's Gravity Well)
-Total coins amount : 25,000,000 MGC
+ - Currency unit : MGC
+ - Algorithm : Scrypt
+ - Block Interval : 1 minute (60 seconds)
+ - Difficulty Retarget : Every block (using Kimoto's Gravity Well)
+ - Total coins amount : 25,000,000 MGC
 Block reward 
-Premine: First 10 block are 2,500,000 HVC 
-Bonus reward for block 10,000 to 100,000 of 3.5 coins
-Bonus reward for block 400,000 - 800,000 of 5 coins
-Bonus reward for block 400,000 - 1,200,000 of 15 coins
-Bonus reward for block 1,200,000 - 1,600,000 of 20 coins
-Subsidy is cut in half every 400,000 blocks starting at block 1600000
-Premine : None
+ - Premine: First 10 block are 2,500,000 HVC 
+ - Bonus reward for block 10,000 to 100,000 of 3.5 coins
+ - Bonus reward for block 400,000 - 800,000 of 5 coins
+ - Bonus reward for block 400,000 - 1,200,000 of 15 coins
+ - Bonus reward for block 1,200,000 - 1,600,000 of 20 coins
+ - Subsidy is cut in half every 400,000 blocks starting at block 1600000
+ - Premine : None
  
   
 ### Overview plz make minegoldcoind/minegoldcoin-cli/minegoldcoin-qt
