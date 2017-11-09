@@ -3,16 +3,12 @@
 
 ![MineGoldCoin]()
 
-[![Build Status](https://travis-ci.org/minegoldcoin/minegoldcoin.svg?branch=1.7-dev)](https://travis-ci.org/minegoldcoin/minegoldcoin) [![tip for next commit](https://tip4commit.com/projects/702.svg)](https://tip4commit.com/github/minegoldcoin/minegoldcoin)
-
 ## What is MineGoldCoin? 
 MineGoldCoin is a cryptocurrency like Bitcoin, although it does not use SHA256 as its proof of work (POW). Taking development cues from Tenebrix and Litecoin, MineGoldCoin currently employs a simplified variant of scrypt.
 
-http://minegoldcoin.com/
+https://minegoldcoin.com/
 
 ## License – Much license
-MineGoldCoin is released under the terms of the MIT license. See [COPYING](COPYING)
-for more information or see http://opensource.org/licenses/MIT.
 
 Currency unit : MGC
 Algorithm : Scrypt
@@ -39,15 +35,15 @@ Premine : None
 
  
 # mingoldcoin.conf
-rpcuser=mgcuser
-rpcpassword=mgcpassword
-listen=1
-txindex=1
-rpcport=34436
-addnode=192.168.193.137
-addnode=192.168.193.135
-addnode=165.227.124.168
-addnode=159.203.111.166
+-rpcuser=mgcuser
+-rpcpassword=mgcpassword
+-listen=1
+-txindex=1
+-rpcport=34436
+-addnode=192.168.193.137
+-addnode=192.168.193.135
+-addnode=165.227.124.168
+-addnode=159.203.111.166
 
 
 **DEBUG_LOCKORDER**
