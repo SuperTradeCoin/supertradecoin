@@ -1,0 +1,11 @@
+[Protocol]
+exec=minegoldcoin-qt '%u'
+protocol=minegoldcoin
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false
