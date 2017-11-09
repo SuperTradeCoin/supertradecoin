@@ -35,6 +35,7 @@ Block reward
   - listen=1
   - txindex=1
   - rpcport=34436
+  - rpcport=34437
   - addnode=192.168.193.137
   - addnode=192.168.193.135
   - addnode=165.227.124.168
