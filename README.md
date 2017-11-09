@@ -1,7 +1,7 @@
 # MineGoldCoin Core [MGC]
 ==========================
 
-![MineGoldCoin](https://minegoldcoin.com/assets/download/300x300_png2.png)
+![MineGoldCoin](https://minegoldcoin.com/assets/img/300x300_png2.png)
 
 ## What is MineGoldCoin? 
 MineGoldCoin is a cryptocurrency like Bitcoin, although it does not use SHA256 as its proof of work (POW). Taking development cues from Tenebrix and Litecoin, MineGoldCoin currently employs a simplified variant of scrypt.
