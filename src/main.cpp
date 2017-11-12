@@ -1264,16 +1264,16 @@ int64_t GetBlockValue(int nHeight, int64_t nFees, uint256 prevHash)
         // Premine: First 10 block are 2,500,000 HVC 
         nSubsidy = 2500000 * COIN;
     } else if (nHeight < 10000) {
-        // Bonus reward for block 10,000 to 100,000 of 3.5 coins
+        // Bonus reward for block 11 to 10,000 of 3.5 coins
         nSubsidy = 3.5 * COIN;
     } else if (nHeight < 100000) {
-        // Bonus reward for block 400,000 - 800,000 of 5 coins
+        // Bonus reward for block 10,000 - 100,000 of 5 coins
         nSubsidy = 5 * COIN;
 	} else if (nHeight < 400000) {
-        // Bonus reward for block 400,000 - 1,200,000 of 15 coins
+        // Bonus reward for block 100,000 - 400,000 of 15 coins
         nSubsidy = 15 * COIN;
     } else if (nHeight < 1200000) {
-        // Bonus reward for block 1,200,000 - 1,600,000 of 20 coins
+        // Bonus reward for block 400,000 - 1,200,000 of 20 coins
         nSubsidy = 20 * COIN;
     } else if (nHeight >= 1600000) {
       // Subsidy is cut in half every 400,000 blocks starting at block 1600000
