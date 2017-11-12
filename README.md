@@ -12,10 +12,10 @@ https://minegoldcoin.com/
  - Total coins amount : 25,000,000 MGC
 Block reward 
  - Premine: First 10 block are 2,500,000 HVC 
- - Bonus reward for block 10,000 to 100,000 of 3.5 coins
- - Bonus reward for block 400,000 - 800,000 of 5 coins
- - Bonus reward for block 400,000 - 1,200,000 of 15 coins
- - Bonus reward for block 1,200,000 - 1,600,000 of 20 coins
+ - Bonus reward for block 11 to 10,000 of 3.5 coins
+ - Bonus reward for block 10,000 - 100,000 of 5 coins
+ - Bonus reward for block 100,000 - 400,000 of 15 coins
+ - Bonus reward for block 400,000 - 1,200,000 of 20 coins
  - Subsidy is cut in half every 400,000 blocks starting at block 1600000
  - Premine : None
  
