@@ -11,7 +11,7 @@ https://minegoldcoin.com/
  - Difficulty Retarget : Every block (using Kimoto's Gravity Well)
  - Total coins amount : 25,000,000 MGC
 Block reward 
- - Premine: First 10 block are 2,500,000 HVC 
+ - Premine: First 10 block are 2,500,000 MGC 
  - Bonus reward for block 11 to 10,000 of 3.5 coins
  - Bonus reward for block 10,000 - 100,000 of 5 coins
  - Bonus reward for block 100,000 - 400,000 of 15 coins
@@ -35,11 +35,13 @@ Block reward
   - listen=1
   - txindex=1
   - rpcport=34436
-  - rpcport=34437
+  - port=34437
   - addnode=192.168.193.137
   - addnode=192.168.193.135
   - addnode=165.227.124.168
   - addnode=159.203.111.166
+  - addnode=199.192.16.144
+  - addnode=199.192.16.129 
 
 
 **DEBUG_LOCKORDER**
