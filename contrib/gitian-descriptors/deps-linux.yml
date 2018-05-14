@@ -1,5 +1,5 @@
 ---
-name: "minegoldcoin"
+name: "supertradecoin"
 suites:
 - "precise"
 architectures:
@@ -95,4 +95,4 @@ script: |
   done
   #
   cd $STAGING
-  find include lib bin host | sort | zip -X@ $OUTDIR/minegoldcoin-deps-linux${GBUILD_BITS}-gitian-r10.zip
+  find include lib bin host | sort | zip -X@ $OUTDIR/supertradecoin-deps-linux${GBUILD_BITS}-gitian-r10.zip

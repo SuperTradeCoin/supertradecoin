@@ -1,12 +1,12 @@
 #!/usr/bin/make -f
 # -*- mode: makefile; coding: utf-8 -*-
 
-#DEB_MAKE_CHECK_TARGET = test_minegoldcoin
-#build/minegoldcoind::
-#	$(if $(filter nocheck,$(DEB_BUILD_OPTIONS)),,src/test_minegoldcoin)
+#DEB_MAKE_CHECK_TARGET = test_supertradecoin
+#build/supertradecoind::
+#	$(if $(filter nocheck,$(DEB_BUILD_OPTIONS)),,src/test_supertradecoin)
 
-DEB_INSTALL_EXAMPLES_minegoldcoind += debian/examples/*
-DEB_INSTALL_MANPAGES_minegoldcoind += debian/manpages/*
+DEB_INSTALL_EXAMPLES_supertradecoind += debian/examples/*
+DEB_INSTALL_MANPAGES_supertradecoind += debian/manpages/*
 
 %:
 	dh --with bash-completion $@

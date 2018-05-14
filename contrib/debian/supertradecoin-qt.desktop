@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=SuperTradeCoin
+Comment=SuperTradeCoin P2P Cryptocurrency
+Comment[fr]=SuperTradeCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=SuperTradeCoin, eşten eşe kriptografik sanal para birimi
+Exec=supertradecoin-qt %u
+Terminal=false
+Type=Application
+Icon=supertradecoin128
+MimeType=x-scheme-handler/supertradecoin;
+Categories=Office;Finance;

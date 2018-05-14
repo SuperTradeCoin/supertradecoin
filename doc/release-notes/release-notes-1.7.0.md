@@ -1,8 +1,8 @@
-# MineGoldCoin Core 1.7 Alpha
+# SuperTradeCoin Core 1.7 Alpha
 =========================
 
-MineGoldCoin Core 1.7 is a complete re-architecture of MineGoldCoin, changing from
-using the Litecoin client as its base, to Bitcoin 0.9. It's still MineGoldCoin,
+SuperTradeCoin Core 1.7 is a complete re-architecture of SuperTradeCoin, changing from
+using the Litecoin client as its base, to Bitcoin 0.9. It's still SuperTradeCoin,
 with the same Scrypt PoW algorithm, same reward schedule, but there are a 
 lot of changes under the hood.
 
@@ -21,19 +21,19 @@ First and foremost, please note that downgrading from 1.7 to 1.6 is not trivial.
 1.7 now uses Berkeley DB 5.1 as its default database (in place of 4.8), and as
 such may create database files which are incompatible with previous versions.
 
-Rebranding to MineGoldCoin Core
+Rebranding to SuperTradeCoin Core
 ---------------------------
 
-Following in the footsteps of Bitcoin (Core), the MineGoldCoin reference client
-has been rebranded as "MineGoldCoin Core". This helps separate its identity
-from MineGoldCoin (the network).
+Following in the footsteps of Bitcoin (Core), the SuperTradeCoin reference client
+has been rebranded as "SuperTradeCoin Core". This helps separate its identity
+from SuperTradeCoin (the network).
 
-minegoldcoin-cli
+supertradecoin-cli
 ------------
 
-Where previously commands were sent to minegoldcoind by running
-"minegoldcoind <command>", 1.7 adopts the model from Bitcoin Core 0.9 where there is
-a separate "minegoldcoin-cli" executable which is used instead. This avoids the risk
+Where previously commands were sent to supertradecoind by running
+"supertradecoind <command>", 1.7 adopts the model from Bitcoin Core 0.9 where there is
+a separate "supertradecoin-cli" executable which is used instead. This avoids the risk
 of accidentally trying to start two daemons at the same time, for example.
 
 
@@ -48,9 +48,9 @@ Testnet
 -------
 
 As mentioned at the start of this document, the alpha-client is for use with the
-MineGoldCoin testnet only. This is an alternative MineGoldCoin blockchain which is
+SuperTradeCoin testnet only. This is an alternative SuperTradeCoin blockchain which is
 not used for real transactions, and instead is intended for testing of experimental
-clients. Wallets and addresses are incompatible with the normal MineGoldCoin
+clients. Wallets and addresses are incompatible with the normal SuperTradeCoin
 network, in order to isolate the two.
 
 As "TestDoge" is essentially valueless, it can be acquired easily for testing,

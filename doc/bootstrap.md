@@ -1,12 +1,12 @@
 ### Bootstrap the Blockchain Synchronization
 
-Normally the MineGoldCoin Core client will download the transaction and network information, called the blockchain, from network by syncing with the other clients. This can be a process that can take multiple days as the MineGoldCoin block chain has grown to approximately 5 gigabytes, and is growing almost half a gigabyte every month. Luckily there is a safe and fast way to speed up this process. We’ll show you how to bootstrap your blockchain to bring your client up to speed in just a few simple steps.
+Normally the SuperTradeCoin Core client will download the transaction and network information, called the blockchain, from network by syncing with the other clients. This can be a process that can take multiple days as the SuperTradeCoin block chain has grown to approximately 5 gigabytes, and is growing almost half a gigabyte every month. Luckily there is a safe and fast way to speed up this process. We’ll show you how to bootstrap your blockchain to bring your client up to speed in just a few simple steps.
 
-You only need to do this when first syncing MineGoldCoin Core; after that, updates are relatively small and shouldn't take too long.
+You only need to do this when first syncing SuperTradeCoin Core; after that, updates are relatively small and shouldn't take too long.
 
 ### Requirements
 
-- A fresh install of the MineGoldCoin Core client software.
+- A fresh install of the SuperTradeCoin Core client software.
 
 ### Download the block chain
 Be sure to only use the official repositories listed below.
@@ -25,12 +25,12 @@ Click [here](https://uk.bootstrap.chain.so/) to go to the download page, or use 
     https://uk.bootstrap.chain.so/bootstrap.dat
 
 ### Importing the blockchain
-Launch the MineGoldCoin Core client once before continuing the process and then exit the MineGoldCoin Core software. Be sure not to have an actively used wallet in use. Now we are going to copy the download of the blockchain to the MineGoldCoin Core data directory. You should run the client software at least once so it can generate the data directory. Copy the downloaded bootstrap.dat file into the MineGoldCoin data folder.
+Launch the SuperTradeCoin Core client once before continuing the process and then exit the SuperTradeCoin Core software. Be sure not to have an actively used wallet in use. Now we are going to copy the download of the blockchain to the SuperTradeCoin Core data directory. You should run the client software at least once so it can generate the data directory. Copy the downloaded bootstrap.dat file into the SuperTradeCoin data folder.
 
 **For Windows users:**
 Open explorer, and type into the address bar:
 
-    %APPDATA%\Roaming\MineGoldCoin
+    %APPDATA%\Roaming\SuperTradeCoin
 
 This will open up the data folder. It should look like the image below. Copy over the bootstrap.dat from your download folder to this directory.
 ![Fig4](img/dogestrap1.png)
@@ -38,15 +38,15 @@ This will open up the data folder. It should look like the image below. Copy ove
 **For OSX users:**
 Open Finder by pressing Press [shift] + [cmd] + [g] and enter:
 
-    ~/Library/Application Support/MineGoldCoin/
+    ~/Library/Application Support/SuperTradeCoin/
 
 **For Linux users:**
 The directory is hidden in your User folder. Go to:
 
-    ~/.minegoldcoin/
+    ~/.supertradecoin/
 
 ### Importing the blockchain
-Now start the MineGoldCoin Core client software. It should show "Importing blocks from disk" like the image below. 
+Now start the SuperTradeCoin Core client software. It should show "Importing blocks from disk" like the image below. 
 ![Fig5](img/dogestrap2.png)
 Wait until the import finishes. The client will download the last days not covered by the import. Congratulations you have successfully imported the blockchain!
 

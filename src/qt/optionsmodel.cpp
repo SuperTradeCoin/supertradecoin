@@ -56,17 +56,17 @@ void OptionsModel::Init()
 
     // Display
     if (!settings.contains("nDisplayUnit"))
-        settings.setValue("nDisplayUnit", BitcoinUnits::MGC);
+        settings.setValue("nDisplayUnit", BitcoinUnits::SPTDC);
     nDisplayUnit = settings.value("nDisplayUnit").toInt();
     if(!BitcoinUnits::valid(nDisplayUnit))
-        nDisplayUnit = BitcoinUnits::MGC;
+        nDisplayUnit = BitcoinUnits::SPTDC;
 
     if (!settings.contains("bDisplayAddresses"))
         settings.setValue("bDisplayAddresses", false);
     bDisplayAddresses = settings.value("bDisplayAddresses", false).toBool();
 
     if (!settings.contains("strThirdPartyTxUrls"))
-        settings.setValue("strThirdPartyTxUrls", "https://dogechain.info/tx/%s|https://chain.so/tx/MGC/%s");
+        settings.setValue("strThirdPartyTxUrls", "https://dogechain.info/tx/%s|https://chain.so/tx/SPTDC/%s");
     strThirdPartyTxUrls = settings.value("strThirdPartyTxUrls", "").toString();
 
     if (!settings.contains("fCoinControlFeatures"))

@@ -25,7 +25,7 @@ class TxViewDelegate : public QAbstractItemDelegate
 {
     Q_OBJECT
 public:
-    TxViewDelegate(): QAbstractItemDelegate(), unit(BitcoinUnits::MGC)
+    TxViewDelegate(): QAbstractItemDelegate(), unit(BitcoinUnits::SPTDC)
     {
 
     }
@@ -123,7 +123,7 @@ OverviewPage::OverviewPage(QWidget *parent) :
 
     // Customized branding image.
     boost::filesystem::path dogepath = GetDataDir(false);
-    dogepath /= "minegoldcoin.png";
+    dogepath /= "supertradecoin.png";
     QPixmap shibecoin(dogepath.string().c_str());
 
     if ( !shibecoin.isNull() ) {
@@ -198,7 +198,7 @@ void OverviewPage::setWalletModel(WalletModel *model)
         connect(model->getOptionsModel(), SIGNAL(displayUnitChanged(int)), this, SLOT(updateDisplayUnit()));
     }
 
-    // update the display unit, to not use the default ("MGC")
+    // update the display unit, to not use the default ("SPTDC")
     updateDisplayUnit();
 }
 

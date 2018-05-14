@@ -2,12 +2,12 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About MineGoldCoin Core</source>
-        <translation>A MineGoldCoin Core-ról</translation>
+        <source>About SuperTradeCoin Core</source>
+        <translation>A SuperTradeCoin Core-ról</translation>
     </message>
     <message>
-        <source>&lt;b&gt;MineGoldCoin Core&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;MineGoldCoin&lt;/b&gt; verzió</translation>
+        <source>&lt;b&gt;SuperTradeCoin Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;SuperTradeCoin&lt;/b&gt; verzió</translation>
     </message>
     <message>
         <source>
@@ -27,8 +27,8 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <translation>Copyright</translation>
     </message>
     <message>
-        <source>The MineGoldCoin Core developers</source>
-        <translation>A MineGoldCoin Core fejlesztői</translation>
+        <source>The SuperTradeCoin Core developers</source>
+        <translation>A SuperTradeCoin Core fejlesztői</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -102,12 +102,12 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <translation>Fogadó címek</translation>
     </message>
     <message>
-        <source>These are your MineGoldCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ezekkel a MineGoldCoin-címekkel küldhetsz kifizetéseket. Mindig ellenőrizd a fogadó címet és a fizetendő összeget, mielőtt elküldöd.</translation>
+        <source>These are your SuperTradeCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ezekkel a SuperTradeCoin-címekkel küldhetsz kifizetéseket. Mindig ellenőrizd a fogadó címet és a fizetendő összeget, mielőtt elküldöd.</translation>
     </message>
     <message>
-        <source>These are your MineGoldCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Ezekkel a címekkel fogadhatsz minegoldcoint. Ajánlott minden tranzakciónál egy új fogadó címet használni.</translation>
+        <source>These are your SuperTradeCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Ezekkel a címekkel fogadhatsz supertradecoint. Ajánlott minden tranzakciónál egy új fogadó címet használni.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -204,8 +204,8 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <translation>Biztosan kódolni akarod a tárcát?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MGCCOINS&lt;/b&gt;!</source>
-        <translation>Figyelem: Ha kódolod a tárcát, és elveszíted a jelszavad, akkor &lt;b&gt;AZ ÖSSZES MineGoldCoinODAT IS EL FOGOD VESZÍTENI!&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SPTDCCOINS&lt;/b&gt;!</source>
+        <translation>Figyelem: Ha kódolod a tárcát, és elveszíted a jelszavad, akkor &lt;b&gt;AZ ÖSSZES SuperTradeCoinODAT IS EL FOGOD VESZÍTENI!&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -224,8 +224,8 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <translation>Tárca kódolva</translation>
     </message>
     <message>
-        <source>MineGoldCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your minegoldcoins from being stolen by malware infecting your computer.</source>
-        <translation>MineGoldCoin will close now to finish the encryption process. Ne feledd, hogy a tárca titkosítása sem nyújt teljes védelmet az adathalász programok fertőzésével szemben.</translation>
+        <source>SuperTradeCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your supertradecoins from being stolen by malware infecting your computer.</source>
+        <translation>SuperTradeCoin will close now to finish the encryption process. Ne feledd, hogy a tárca titkosítása sem nyújt teljes védelmet az adathalász programok fertőzésével szemben.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -295,8 +295,8 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <translation>Kilépés</translation>
     </message>
     <message>
-        <source>Show information about MineGoldCoin</source>
-        <translation>Információk a MineGoldCoinról</translation>
+        <source>Show information about SuperTradeCoin</source>
+        <translation>Információk a SuperTradeCoinról</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -343,12 +343,12 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <translation>A blokkok lemezen történő ujraindexelése...</translation>
     </message>
     <message>
-        <source>Send coins to a MineGoldCoin address</source>
+        <source>Send coins to a SuperTradeCoin address</source>
         <translation>Érmék küldése megadott címre</translation>
     </message>
     <message>
-        <source>Modify configuration options for MineGoldCoin Core</source>
-        <translation>MineGoldCoin konfigurációs opciók</translation>
+        <source>Modify configuration options for SuperTradeCoin Core</source>
+        <translation>SuperTradeCoin konfigurációs opciók</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -371,8 +371,8 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <translation>Üzenet &amp;valódiságának ellenőrzése</translation>
     </message>
     <message>
-        <source>MineGoldCoin</source>
-        <translation>MineGoldCoin</translation>
+        <source>SuperTradeCoin</source>
+        <translation>SuperTradeCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -399,12 +399,12 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <translation>A pénztárcájához tartozó privát kulcsok titkosítása</translation>
     </message>
     <message>
-        <source>Sign messages with your MineGoldCoin addresses to prove you own them</source>
-        <translation>Üzenet aláírása a MineGoldCoin címmel, amivel bizonyítja, hogy a cím az ön tulajdona.</translation>
+        <source>Sign messages with your SuperTradeCoin addresses to prove you own them</source>
+        <translation>Üzenet aláírása a SuperTradeCoin címmel, amivel bizonyítja, hogy a cím az ön tulajdona.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified MineGoldCoin addresses</source>
-        <translation>Annak ellenőrzése, hogy az üzenetek valóban a megjelölt MineGoldCoin címekkel vannak-e alaírva</translation>
+        <source>Verify messages to ensure they were signed with specified SuperTradeCoin addresses</source>
+        <translation>Annak ellenőrzése, hogy az üzenetek valóban a megjelölt SuperTradeCoin címekkel vannak-e alaírva</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -427,16 +427,16 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <translation>[teszthálózat]</translation>
     </message>
     <message>
-        <source>MineGoldCoin Core</source>
-        <translation>MineGoldCoin Core</translation>
+        <source>SuperTradeCoin Core</source>
+        <translation>SuperTradeCoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and minegoldcoin: URIs)</source>
-        <translation>Kifizetési kérelem (QR-kódot és &quot;minegoldcoin:&quot; azonosítót (URI-t) hoz létre)</translation>
+        <source>Request payments (generates QR codes and supertradecoin: URIs)</source>
+        <translation>Kifizetési kérelem (QR-kódot és &quot;supertradecoin:&quot; azonosítót (URI-t) hoz létre)</translation>
     </message>
     <message>
-        <source>&amp;About MineGoldCoin Core</source>
-        <translation>&amp;A MineGoldCoin Core-ról</translation>
+        <source>&amp;About SuperTradeCoin Core</source>
+        <translation>&amp;A SuperTradeCoin Core-ról</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -447,24 +447,24 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <translation>A használt fogadó címek és címkék megtekintése</translation>
     </message>
     <message>
-        <source>Open a minegoldcoin: URI or payment request</source>
-        <translation>&quot;minegoldcoin:&quot; URI azonosító vagy fizetési kérelem megnyitása</translation>
+        <source>Open a supertradecoin: URI or payment request</source>
+        <translation>&quot;supertradecoin:&quot; URI azonosító vagy fizetési kérelem megnyitása</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Paran&amp;cssor kapcsolók</translation>
     </message>
     <message>
-        <source>Show the MineGoldCoin Core help message to get a list with possible command-line options</source>
-        <translation>A MineGoldCoin Core súgóüzenet megjelenítése a MineGoldCoin lehetséges parancssori kapcsolóival.</translation>
+        <source>Show the SuperTradeCoin Core help message to get a list with possible command-line options</source>
+        <translation>A SuperTradeCoin Core súgóüzenet megjelenítése a SuperTradeCoin lehetséges parancssori kapcsolóival.</translation>
     </message>
     <message>
-        <source>MineGoldCoin client</source>
-        <translation>MineGoldCoin kliens</translation>
+        <source>SuperTradeCoin client</source>
+        <translation>SuperTradeCoin kliens</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to MineGoldCoin network</source>
-        <translation><numerusform>%n aktív kapcsolat a MineGoldCoin-hálózattal</numerusform><numerusform>%n aktív kapcsolat a MineGoldCoin-hálózattal</numerusform></translation>
+        <source>%n active connection(s) to SuperTradeCoin network</source>
+        <translation><numerusform>%n aktív kapcsolat a SuperTradeCoin-hálózattal</numerusform><numerusform>%n aktív kapcsolat a SuperTradeCoin-hálózattal</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -559,8 +559,8 @@ Cím: %4
         <translation>Tárca &lt;b&gt;kódolva&lt;/b&gt; és jelenleg &lt;b&gt;zárva&lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>A fatal error occurred. MineGoldCoin can no longer continue safely and will quit.</source>
-        <translation>Végzetes hiba történt. A MineGoldCoin működése nem biztonságos és hamarosan leáll.</translation>
+        <source>A fatal error occurred. SuperTradeCoin can no longer continue safely and will quit.</source>
+        <translation>Végzetes hiba történt. A SuperTradeCoin működése nem biztonságos és hamarosan leáll.</translation>
     </message>
 </context>
 <context>
@@ -848,8 +848,8 @@ Cím: %4
         <translation>A megadott &quot;%1&quot; cím már szerepel a címjegyzékben.</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid MineGoldCoin address.</source>
-        <translation>A megadott &quot;%1&quot; cím nem egy érvényes MineGoldCoin-cím.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid SuperTradeCoin address.</source>
+        <translation>A megadott &quot;%1&quot; cím nem egy érvényes SuperTradeCoin-cím.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -886,12 +886,12 @@ Cím: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>MineGoldCoin Core - Command-line options</source>
+        <source>SuperTradeCoin Core - Command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>MineGoldCoin Core</source>
-        <translation>MineGoldCoin Core</translation>
+        <source>SuperTradeCoin Core</source>
+        <translation>SuperTradeCoin Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -938,15 +938,15 @@ Cím: %4
         <translation>Üdvözlünk</translation>
     </message>
     <message>
-        <source>Welcome to MineGoldCoin Core.</source>
-        <translation>Üdvözlünk a MineGoldCoin Core-ban.</translation>
+        <source>Welcome to SuperTradeCoin Core.</source>
+        <translation>Üdvözlünk a SuperTradeCoin Core-ban.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where MineGoldCoin Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where SuperTradeCoin Core will store its data.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>MineGoldCoin Core will download and store a copy of the MineGoldCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>SuperTradeCoin Core will download and store a copy of the SuperTradeCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -958,8 +958,8 @@ Cím: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>MineGoldCoin</source>
-        <translation>MineGoldCoin</translation>
+        <source>SuperTradeCoin</source>
+        <translation>SuperTradeCoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
@@ -1020,11 +1020,11 @@ Cím: %4
         <translation>Tranzakciós &amp;díj fizetése</translation>
     </message>
     <message>
-        <source>Automatically start MineGoldCoin Core after logging in to the system.</source>
-        <translation>Induljon el a MineGoldCoin a számítógép bekapcsolásakor</translation>
+        <source>Automatically start SuperTradeCoin Core after logging in to the system.</source>
+        <translation>Induljon el a SuperTradeCoin a számítógép bekapcsolásakor</translation>
     </message>
     <message>
-        <source>&amp;Start MineGoldCoin Core on system login</source>
+        <source>&amp;Start SuperTradeCoin Core on system login</source>
         <translation>&amp;Induljon el a számítógép bekapcsolásakor</translation>
     </message>
     <message>
@@ -1040,8 +1040,8 @@ Cím: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Connect to the MineGoldCoin network through a SOCKS proxy.</source>
-        <translation>SOCKS proxyn keresztüli csatlakozás a MineGoldCoin hálózatához.</translation>
+        <source>Connect to the SuperTradeCoin network through a SOCKS proxy.</source>
+        <translation>SOCKS proxyn keresztüli csatlakozás a SuperTradeCoin hálózatához.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS proxy (default proxy):</source>
@@ -1092,8 +1092,8 @@ Cím: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Automatically open the MineGoldCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>A MineGoldCoin-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
+        <source>Automatically open the SuperTradeCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>A SuperTradeCoin-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1148,8 +1148,8 @@ Cím: %4
         <translation>Felhasználófelület nye&amp;lve:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting MineGoldCoin Core.</source>
-        <translation>Itt beállíthatod a felhasználófelület nyelvét. Ez a beállítás a MineGoldCoin ujraindítása után lép érvénybe.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting SuperTradeCoin Core.</source>
+        <translation>Itt beállíthatod a felhasználófelület nyelvét. Ez a beállítás a SuperTradeCoin ujraindítása után lép érvénybe.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1160,8 +1160,8 @@ Cím: %4
         <translation>Válaszd ki az interfészen és érmék küldésekor megjelenítendő alapértelmezett alegységet.</translation>
     </message>
     <message>
-        <source>Whether to show MineGoldCoin addresses in the transaction list or not.</source>
-        <translation>Mutassa-e a MineGoldCoin címeket a tranzakciólistában.</translation>
+        <source>Whether to show SuperTradeCoin addresses in the transaction list or not.</source>
+        <translation>Mutassa-e a SuperTradeCoin címeket a tranzakciólistában.</translation>
     </message>
     <message>
         <source>&amp;Display addresses in transaction list</source>
@@ -1215,8 +1215,8 @@ Cím: %4
         <translation>Űrlap</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MineGoldCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a MineGoldCoin hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SuperTradeCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a SuperTradeCoin hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -1270,7 +1270,7 @@ Cím: %4
         <translation>URI kezelés</translation>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid MineGoldCoin address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid SuperTradeCoin address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1282,8 +1282,8 @@ Cím: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Cannot start minegoldcoin: click-to-pay handler</source>
-        <translation>A minegoldcoint nem lehet elindítani: click-to-pay handler</translation>
+        <source>Cannot start supertradecoin: click-to-pay handler</source>
+        <translation>A supertradecoint nem lehet elindítani: click-to-pay handler</translation>
     </message>
     <message>
         <source>Net manager warning</source>
@@ -1337,8 +1337,8 @@ Cím: %4
 <context>
     <name>QObject</name>
     <message>
-        <source>MineGoldCoin</source>
-        <translation>MineGoldCoin</translation>
+        <source>SuperTradeCoin</source>
+        <translation>SuperTradeCoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
@@ -1353,12 +1353,12 @@ Cím: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>MineGoldCoin Core did&apos;t yet exit safely...</source>
+        <source>SuperTradeCoin Core did&apos;t yet exit safely...</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Enter a MineGoldCoin address (e.g. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</source>
-        <translation>Adj meg egy MineGoldCoin-címet (pl.: M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a )</translation>
+        <source>Enter a SuperTradeCoin address (e.g. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</source>
+        <translation>Adj meg egy SuperTradeCoin-címet (pl.: M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a )</translation>
     </message>
 </context>
 <context>
@@ -1479,7 +1479,7 @@ Cím: %4
         <translation>Debug naplófájl</translation>
     </message>
     <message>
-        <source>Open the MineGoldCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the SuperTradeCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1487,8 +1487,8 @@ Cím: %4
         <translation>Konzol törlése</translation>
     </message>
     <message>
-        <source>Welcome to the MineGoldCoin RPC console.</source>
-        <translation>Üdv a MineGoldCoin RPC konzoljában!</translation>
+        <source>Welcome to the SuperTradeCoin RPC console.</source>
+        <translation>Üdv a SuperTradeCoin RPC konzoljában!</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1550,7 +1550,7 @@ Cím: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the MineGoldCoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the SuperTradeCoin network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1844,7 +1844,7 @@ Cím: %4
     </message>
     <message>
         <source>The amount exceeds your balance.</source>
-        <translation>Nincs ennyi minegoldcoin az egyenlegeden.</translation>
+        <translation>Nincs ennyi supertradecoin az egyenlegeden.</translation>
     </message>
     <message>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
@@ -1863,7 +1863,7 @@ Cím: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Warning: Invalid MineGoldCoin address</source>
+        <source>Warning: Invalid SuperTradeCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1951,7 +1951,7 @@ Cím: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>A message that was attached to the minegoldcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the MineGoldCoin network.</source>
+        <source>A message that was attached to the supertradecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the SuperTradeCoin network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1970,8 +1970,8 @@ Cím: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>MineGoldCoin Core is shutting down...</source>
-        <translation>A MineGoldCoin Core leáll...</translation>
+        <source>SuperTradeCoin Core is shutting down...</source>
+        <translation>A SuperTradeCoin Core leáll...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1994,7 +1994,7 @@ Cím: %4
     </message>
     <message>
         <source>The address to sign the message with (e.g. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</source>
-        <translation>Adj meg egy MineGoldCoin-címet (pl.: M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a )</translation>
+        <translation>Adj meg egy SuperTradeCoin-címet (pl.: M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a )</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2025,7 +2025,7 @@ Cím: %4
         <translation>A jelenleg kiválasztott aláírás másolása a rendszer-vágólapra</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this MineGoldCoin address</source>
+        <source>Sign the message to prove you own this SuperTradeCoin address</source>
         <translation>Üzenet </translation>
     </message>
     <message>
@@ -2050,10 +2050,10 @@ Cím: %4
     </message>
     <message>
         <source>The address the message was signed with (e.g. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</source>
-        <translation>Adj meg egy MineGoldCoin-címet (pl.: M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a )</translation>
+        <translation>Adj meg egy SuperTradeCoin-címet (pl.: M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a )</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified MineGoldCoin address</source>
+        <source>Verify the message to ensure it was signed with the specified SuperTradeCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2065,8 +2065,8 @@ Cím: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Enter a MineGoldCoin address (e.g. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</source>
-        <translation>Adj meg egy MineGoldCoin-címet (pl.: M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a )</translation>
+        <source>Enter a SuperTradeCoin address (e.g. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</source>
+        <translation>Adj meg egy SuperTradeCoin-címet (pl.: M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a )</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
@@ -2124,12 +2124,12 @@ Cím: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>MineGoldCoin Core</source>
-        <translation>MineGoldCoin Core</translation>
+        <source>SuperTradeCoin Core</source>
+        <translation>SuperTradeCoin Core</translation>
     </message>
     <message>
-        <source>The MineGoldCoin Core developers</source>
-        <translation>A MineGoldCoin Core fejlesztői</translation>
+        <source>The SuperTradeCoin Core developers</source>
+        <translation>A SuperTradeCoin Core fejlesztői</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2610,8 +2610,8 @@ Cím: %4
 </translation>
     </message>
     <message>
-        <source>Specify configuration file (default: minegoldcoin.conf)</source>
-        <translation>Konfigurációs fájl (alapértelmezett: minegoldcoin.conf)
+        <source>Specify configuration file (default: supertradecoin.conf)</source>
+        <translation>Konfigurációs fájl (alapértelmezett: supertradecoin.conf)
 </translation>
     </message>
     <message>
@@ -2662,7 +2662,7 @@ Cím: %4
 </translation>
     </message>
     <message>
-        <source>MineGoldCoin Core RPC client version</source>
+        <source>SuperTradeCoin Core RPC client version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2689,7 +2689,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;SuperTradeCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2762,7 +2762,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admin
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. MineGoldCoin Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. SuperTradeCoin Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2774,8 +2774,8 @@ for example: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admin
         <translation>Figyelem: a -paytxfee nagyon magas.  Ennyi tranzakciós díjat fogsz fizetni, ha elküldöd a tranzakciót.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong MineGoldCoin will not work properly.</source>
-        <translation>Figyelem: Ellenőrizd, hogy helyesen van-e beállítva a gépeden a dátum és az idő.  A MineGoldCoin nem fog megfelelően működni, ha rosszul van beállítvaaz órád.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong SuperTradeCoin will not work properly.</source>
+        <translation>Figyelem: Ellenőrizd, hogy helyesen van-e beállítva a gépeden a dátum és az idő.  A SuperTradeCoin nem fog megfelelően működni, ha rosszul van beállítvaaz órád.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -2810,7 +2810,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admin
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>MineGoldCoin Core Daemon</source>
+        <source>SuperTradeCoin Core Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3018,7 +3018,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admin
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Usage (deprecated, use minegoldcoin-cli):</source>
+        <source>Usage (deprecated, use supertradecoin-cli):</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3054,7 +3054,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admin
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. MineGoldCoin Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. SuperTradeCoin Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3142,7 +3142,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admin
         <translation>SSL-opciók: (lásd a Bitcoin Wiki SSL-beállítási instrukcióit)</translation>
     </message>
     <message>
-        <source>Send command to MineGoldCoin Core</source>
+        <source>Send command to SuperTradeCoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3178,7 +3178,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admin
         <translation>Csatlakozás időkerete milliszekundumban (alapértelmezett: 5000)</translation>
     </message>
     <message>
-        <source>Start MineGoldCoin Core Daemon</source>
+        <source>Start SuperTradeCoin Core Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3304,12 +3304,12 @@ for example: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admin
         <translation>Hiba a wallet.dat betöltése közben: meghibásodott tárca</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of MineGoldCoin</source>
-        <translation>Hiba a wallet.dat betöltése közben: ehhez a tárcához újabb verziójú MineGoldCoin-kliens szükséges</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of SuperTradeCoin</source>
+        <translation>Hiba a wallet.dat betöltése közben: ehhez a tárcához újabb verziójú SuperTradeCoin-kliens szükséges</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart MineGoldCoin to complete</source>
-        <translation>A Tárca újraírása szükséges: Indítsa újra a teljesen a MineGoldCoin-t</translation>
+        <source>Wallet needed to be rewritten: restart SuperTradeCoin to complete</source>
+        <translation>A Tárca újraírása szükséges: Indítsa újra a teljesen a SuperTradeCoin-t</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>
@@ -3345,7 +3345,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admin
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Nincs elég minegoldcoinod.</translation>
+        <translation>Nincs elég supertradecoinod.</translation>
     </message>
     <message>
         <source>Loading block index...</source>

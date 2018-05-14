@@ -2,12 +2,12 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About MineGoldCoin Core</source>
-        <translation>Despre Nucleul MineGoldCoin</translation>
+        <source>About SuperTradeCoin Core</source>
+        <translation>Despre Nucleul SuperTradeCoin</translation>
     </message>
     <message>
-        <source>&lt;b&gt;MineGoldCoin Core&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Nucleul MineGoldCoin &lt;/b&gt; versiune</translation>
+        <source>&lt;b&gt;SuperTradeCoin Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Nucleul SuperTradeCoin &lt;/b&gt; versiune</translation>
     </message>
     <message>
         <source>
@@ -28,8 +28,8 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
         <translation>Drepturi de autor</translation>
     </message>
     <message>
-        <source>The MineGoldCoin Core developers</source>
-        <translation>Dezvoltatorii MineGoldCoin Core</translation>
+        <source>The SuperTradeCoin Core developers</source>
+        <translation>Dezvoltatorii SuperTradeCoin Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -103,12 +103,12 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
         <translation>Adresa pe care primiti</translation>
     </message>
     <message>
-        <source>These are your MineGoldCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Acestea sunt adresele dumneavoastra MineGoldCoin care pot fi folosite la trimiterea platilor. Verificati totdeauna cantitatea si adresa de primire inainte de a trimite monezi.</translation>
+        <source>These are your SuperTradeCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Acestea sunt adresele dumneavoastra SuperTradeCoin care pot fi folosite la trimiterea platilor. Verificati totdeauna cantitatea si adresa de primire inainte de a trimite monezi.</translation>
     </message>
     <message>
-        <source>These are your MineGoldCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Acestea sunt adresele dumneavoastra MineGoldCoin folosite pentru a primi plati. Este recomandat sa folositi cate o adresa noua de primire pentru fiecare tranzactie in parte.</translation>
+        <source>These are your SuperTradeCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Acestea sunt adresele dumneavoastra SuperTradeCoin folosite pentru a primi plati. Este recomandat sa folositi cate o adresa noua de primire pentru fiecare tranzactie in parte.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -205,8 +205,8 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
         <translation>Confirmă criptarea portofelului</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MGCCOINS&lt;/b&gt;!</source>
-        <translation>Atenție: Dacă pierdeţi parola portofelului electronic dupa criptare, &lt;b&gt;VEŢI PIERDE ÎNTREAGA SUMĂ DE MineGoldCoin ACUMULATĂ&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SPTDCCOINS&lt;/b&gt;!</source>
+        <translation>Atenție: Dacă pierdeţi parola portofelului electronic dupa criptare, &lt;b&gt;VEŢI PIERDE ÎNTREAGA SUMĂ DE SuperTradeCoin ACUMULATĂ&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -225,8 +225,8 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
         <translation>Portofel criptat</translation>
     </message>
     <message>
-        <source>MineGoldCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your minegoldcoins from being stolen by malware infecting your computer.</source>
-        <translation>MineGoldCoin se va închide acum pentru a termina procesul de criptare. Ține minte că criptarea portofelului nu te poate proteja în totalitate de furtul monedelor de către programe dăunătoare care îți infectează calculatorul.</translation>
+        <source>SuperTradeCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your supertradecoins from being stolen by malware infecting your computer.</source>
+        <translation>SuperTradeCoin se va închide acum pentru a termina procesul de criptare. Ține minte că criptarea portofelului nu te poate proteja în totalitate de furtul monedelor de către programe dăunătoare care îți infectează calculatorul.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -296,8 +296,8 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
         <translation>Închide aplicația</translation>
     </message>
     <message>
-        <source>Show information about MineGoldCoin</source>
-        <translation>Arată informații despre MineGoldCoin</translation>
+        <source>Show information about SuperTradeCoin</source>
+        <translation>Arată informații despre SuperTradeCoin</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -344,12 +344,12 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
         <translation>Se reindexează blocurile pe disc...</translation>
     </message>
     <message>
-        <source>Send coins to a MineGoldCoin address</source>
-        <translation>Trimite monede către o adresă MineGoldCoin</translation>
+        <source>Send coins to a SuperTradeCoin address</source>
+        <translation>Trimite monede către o adresă SuperTradeCoin</translation>
     </message>
     <message>
-        <source>Modify configuration options for MineGoldCoin Core</source>
-        <translation>Modifică opțiunile de configurare pentru MineGoldCoin</translation>
+        <source>Modify configuration options for SuperTradeCoin Core</source>
+        <translation>Modifică opțiunile de configurare pentru SuperTradeCoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -372,8 +372,8 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
         <translation>&amp;Verifică mesajul...</translation>
     </message>
     <message>
-        <source>MineGoldCoin</source>
-        <translation>MineGoldCoin</translation>
+        <source>SuperTradeCoin</source>
+        <translation>SuperTradeCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -400,12 +400,12 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
         <translation>Criptează cheile private ale portofelului tău</translation>
     </message>
     <message>
-        <source>Sign messages with your MineGoldCoin addresses to prove you own them</source>
-        <translation>Semnează mesaje cu adresa ta MineGoldCoin pentru a dovedi că îți aparțin</translation>
+        <source>Sign messages with your SuperTradeCoin addresses to prove you own them</source>
+        <translation>Semnează mesaje cu adresa ta SuperTradeCoin pentru a dovedi că îți aparțin</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified MineGoldCoin addresses</source>
-        <translation>Verifică mesaje pentru a te asigura că au fost semnate cu adresa MineGoldCoin specificată</translation>
+        <source>Verify messages to ensure they were signed with specified SuperTradeCoin addresses</source>
+        <translation>Verifică mesaje pentru a te asigura că au fost semnate cu adresa SuperTradeCoin specificată</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -428,16 +428,16 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>MineGoldCoin Core</source>
-        <translation>MineGoldCoin Core</translation>
+        <source>SuperTradeCoin Core</source>
+        <translation>SuperTradeCoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and minegoldcoin: URIs)</source>
+        <source>Request payments (generates QR codes and supertradecoin: URIs)</source>
         <translation>Cereti plati (genereaza coduri QR si bitcoin-uri: URls)</translation>
     </message>
     <message>
-        <source>&amp;About MineGoldCoin Core</source>
-        <translation>&amp;Despre Nucleul MineGoldCoin</translation>
+        <source>&amp;About SuperTradeCoin Core</source>
+        <translation>&amp;Despre Nucleul SuperTradeCoin</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -448,24 +448,24 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
         <translation>Aratati lista de adrese pentru primire si etichete </translation>
     </message>
     <message>
-        <source>Open a minegoldcoin: URI or payment request</source>
-        <translation>Deschideti un minegoldcoin: o adresa URI sau o cerere de plata</translation>
+        <source>Open a supertradecoin: URI or payment request</source>
+        <translation>Deschideti un supertradecoin: o adresa URI sau o cerere de plata</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Command-line setări</translation>
     </message>
     <message>
-        <source>Show the MineGoldCoin Core help message to get a list with possible command-line options</source>
+        <source>Show the SuperTradeCoin Core help message to get a list with possible command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>MineGoldCoin client</source>
-        <translation>Client MineGoldCoin</translation>
+        <source>SuperTradeCoin client</source>
+        <translation>Client SuperTradeCoin</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to MineGoldCoin network</source>
-        <translation><numerusform>%n conexiune activă către rețeaua MineGoldCoin</numerusform><numerusform>%n conexiuni active către rețeaua MineGoldCoin</numerusform><numerusform>%n de conexiuni active către rețeaua MineGoldCoin</numerusform></translation>
+        <source>%n active connection(s) to SuperTradeCoin network</source>
+        <translation><numerusform>%n conexiune activă către rețeaua SuperTradeCoin</numerusform><numerusform>%n conexiuni active către rețeaua SuperTradeCoin</numerusform><numerusform>%n de conexiuni active către rețeaua SuperTradeCoin</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -560,8 +560,8 @@ Adresa: %4
         <translation>Portofelul este &lt;b&gt;criptat&lt;/b&gt; iar în momentul de față este &lt;b&gt;blocat&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. MineGoldCoin can no longer continue safely and will quit.</source>
-        <translation>A survenit o eroare fatala. MineGoldCoin nu mai poate continua in siguranta si se va opri.</translation>
+        <source>A fatal error occurred. SuperTradeCoin can no longer continue safely and will quit.</source>
+        <translation>A survenit o eroare fatala. SuperTradeCoin nu mai poate continua in siguranta si se va opri.</translation>
     </message>
 </context>
 <context>
@@ -849,7 +849,7 @@ Adresa: %4
         <translation>Adresa introdusă &quot;%1&quot; se află deja în lista de adrese.</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid MineGoldCoin address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid SuperTradeCoin address.</source>
         <translation>Adresa introdusă &quot;%1&quot; nu este o adresă bitcoin validă.</translation>
     </message>
     <message>
@@ -887,12 +887,12 @@ Adresa: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>MineGoldCoin Core - Command-line options</source>
-        <translation>MineGoldCoin Core - Opţiuni Linie de comandă</translation>
+        <source>SuperTradeCoin Core - Command-line options</source>
+        <translation>SuperTradeCoin Core - Opţiuni Linie de comandă</translation>
     </message>
     <message>
-        <source>MineGoldCoin Core</source>
-        <translation>MineGoldCoin Core</translation>
+        <source>SuperTradeCoin Core</source>
+        <translation>SuperTradeCoin Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -938,16 +938,16 @@ Adresa: %4
         <translation>Bun venit</translation>
     </message>
     <message>
-        <source>Welcome to MineGoldCoin Core.</source>
-        <translation>Bine Aţi Venit la Nucleul MineGoldCoin.</translation>
+        <source>Welcome to SuperTradeCoin Core.</source>
+        <translation>Bine Aţi Venit la Nucleul SuperTradeCoin.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where MineGoldCoin Core will store its data.</source>
-        <translation>Dacă aceasta este prima dată când programul este lansat, puteţi alege unde Nucleul MineGoldCoin va stoca datele. </translation>
+        <source>As this is the first time the program is launched, you can choose where SuperTradeCoin Core will store its data.</source>
+        <translation>Dacă aceasta este prima dată când programul este lansat, puteţi alege unde Nucleul SuperTradeCoin va stoca datele. </translation>
     </message>
     <message>
-        <source>MineGoldCoin Core will download and store a copy of the MineGoldCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Nucleul MineGoldCoin Core se va descărca şi va stoca o copie a lanţului blocului MineGoldCoin. Cel puţin %1GB de date vor fi stocate in acest dosar şi se va dezvolta în timp. Portofelul va fi, de asemenea, stocat în acest dosar.</translation>
+        <source>SuperTradeCoin Core will download and store a copy of the SuperTradeCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Nucleul SuperTradeCoin Core se va descărca şi va stoca o copie a lanţului blocului SuperTradeCoin. Cel puţin %1GB de date vor fi stocate in acest dosar şi se va dezvolta în timp. Portofelul va fi, de asemenea, stocat în acest dosar.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -958,8 +958,8 @@ Adresa: %4
         <translation>Folosește un dosar de date personalizat:</translation>
     </message>
     <message>
-        <source>MineGoldCoin</source>
-        <translation>MineGoldCoin</translation>
+        <source>SuperTradeCoin</source>
+        <translation>SuperTradeCoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
@@ -1020,12 +1020,12 @@ Adresa: %4
         <translation>Plăteşte comision pentru tranzacţie &amp;f</translation>
     </message>
     <message>
-        <source>Automatically start MineGoldCoin Core after logging in to the system.</source>
-        <translation>Porneşte automat programul MineGoldCoin la pornirea computerului.</translation>
+        <source>Automatically start SuperTradeCoin Core after logging in to the system.</source>
+        <translation>Porneşte automat programul SuperTradeCoin la pornirea computerului.</translation>
     </message>
     <message>
-        <source>&amp;Start MineGoldCoin Core on system login</source>
-        <translation>&amp;S Porneşte MineGoldCoin la pornirea sistemului</translation>
+        <source>&amp;Start SuperTradeCoin Core on system login</source>
+        <translation>&amp;S Porneşte SuperTradeCoin la pornirea sistemului</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1040,8 +1040,8 @@ Adresa: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Connect to the MineGoldCoin network through a SOCKS proxy.</source>
-        <translation>Conecteaza-te la reteaua MineGoldCoin printr-un proxy SOCKS</translation>
+        <source>Connect to the SuperTradeCoin network through a SOCKS proxy.</source>
+        <translation>Conecteaza-te la reteaua SuperTradeCoin printr-un proxy SOCKS</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS proxy (default proxy):</source>
@@ -1092,8 +1092,8 @@ Adresa: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Automatically open the MineGoldCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Deschide automat în router portul aferent clientului MineGoldCoin. Funcţionează doar în cazul în care routerul e compatibil UPnP şi opţiunea e activată.</translation>
+        <source>Automatically open the SuperTradeCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Deschide automat în router portul aferent clientului SuperTradeCoin. Funcţionează doar în cazul în care routerul e compatibil UPnP şi opţiunea e activată.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1148,8 +1148,8 @@ Adresa: %4
         <translation>Interfata &amp; limba userului</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting MineGoldCoin Core.</source>
-        <translation>Limba interfeței utilizatorului poate fi setat aici. Această setare va avea efect după repornirea MineGoldCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting SuperTradeCoin Core.</source>
+        <translation>Limba interfeței utilizatorului poate fi setat aici. Această setare va avea efect după repornirea SuperTradeCoin.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1160,8 +1160,8 @@ Adresa: %4
         <translation>Alege subdiviziunea folosită la afişarea interfeţei şi la trimiterea de bitcoin.</translation>
     </message>
     <message>
-        <source>Whether to show MineGoldCoin addresses in the transaction list or not.</source>
-        <translation>Vezi dacă adresele MineGoldCoin sunt în lista de tranzacție sau nu</translation>
+        <source>Whether to show SuperTradeCoin addresses in the transaction list or not.</source>
+        <translation>Vezi dacă adresele SuperTradeCoin sunt în lista de tranzacție sau nu</translation>
     </message>
     <message>
         <source>&amp;Display addresses in transaction list</source>
@@ -1215,8 +1215,8 @@ Adresa: %4
         <translation>Form</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MineGoldCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informațiile afișate pot neactualizate. Portofelul tău se sincronizează automat cu rețeaua MineGoldCoin după ce o conexiune este stabilită, dar acest proces nu a fost finalizat încă.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SuperTradeCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informațiile afișate pot neactualizate. Portofelul tău se sincronizează automat cu rețeaua SuperTradeCoin după ce o conexiune este stabilită, dar acest proces nu a fost finalizat încă.</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -1270,8 +1270,8 @@ Adresa: %4
         <translation>Gestionare URI</translation>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid MineGoldCoin address or malformed URI parameters.</source>
-        <translation>URI nu poate fi analizat! Acest lucru poate fi cauzat de o adresa MineGoldCoin invalida sau parametri deformati URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid SuperTradeCoin address or malformed URI parameters.</source>
+        <translation>URI nu poate fi analizat! Acest lucru poate fi cauzat de o adresa SuperTradeCoin invalida sau parametri deformati URI.</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
@@ -1282,8 +1282,8 @@ Adresa: %4
         <translation>Eroare la cererea de plată</translation>
     </message>
     <message>
-        <source>Cannot start minegoldcoin: click-to-pay handler</source>
-        <translation>Nu poate porni minegoldcoin: regula clic-pentru-plata</translation>
+        <source>Cannot start supertradecoin: click-to-pay handler</source>
+        <translation>Nu poate porni supertradecoin: regula clic-pentru-plata</translation>
     </message>
     <message>
         <source>Net manager warning</source>
@@ -1337,8 +1337,8 @@ Adresa: %4
 <context>
     <name>QObject</name>
     <message>
-        <source>MineGoldCoin</source>
-        <translation>MineGoldCoin</translation>
+        <source>SuperTradeCoin</source>
+        <translation>SuperTradeCoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
@@ -1353,12 +1353,12 @@ Adresa: %4
         <translation>Eroare: combinație nevalidă de -regtest și -testnet.</translation>
     </message>
     <message>
-        <source>MineGoldCoin Core did&apos;t yet exit safely...</source>
+        <source>SuperTradeCoin Core did&apos;t yet exit safely...</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Enter a MineGoldCoin address (e.g. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</source>
-        <translation>Introdu o adresă MineGoldCoin (de exemplu: M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</translation>
+        <source>Enter a SuperTradeCoin address (e.g. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</source>
+        <translation>Introdu o adresă SuperTradeCoin (de exemplu: M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</translation>
     </message>
 </context>
 <context>
@@ -1479,7 +1479,7 @@ Adresa: %4
         <translation>Loguri debug</translation>
     </message>
     <message>
-        <source>Open the MineGoldCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the SuperTradeCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Deschide logurile debug din directorul curent. Aceasta poate dura cateva secunde pentru fisierele mai mari</translation>
     </message>
     <message>
@@ -1487,7 +1487,7 @@ Adresa: %4
         <translation>Curăță consola</translation>
     </message>
     <message>
-        <source>Welcome to the MineGoldCoin RPC console.</source>
+        <source>Welcome to the SuperTradeCoin RPC console.</source>
         <translation>Bun venit la consola bitcoin RPC</translation>
     </message>
     <message>
@@ -1550,7 +1550,7 @@ Adresa: %4
         <translation>&amp;Refolosirea unei adrese de primire (nu este recomandat)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the MineGoldCoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the SuperTradeCoin network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1863,8 +1863,8 @@ Adresa: %4
         <translation>Tranzactia a fost respinsa! Acest lucru se poate intampla daca o parte din monedele tale din portofel au fost deja cheltuite, la fel ca si cum ai fi folosit o copie a wallet.dat si monedele au fost cheltuite in copie, dar nu au fost marcate si si cheltuite si aici.</translation>
     </message>
     <message>
-        <source>Warning: Invalid MineGoldCoin address</source>
-        <translation>Atentie: Adresa MineGoldCoin invalida!</translation>
+        <source>Warning: Invalid SuperTradeCoin address</source>
+        <translation>Atentie: Adresa SuperTradeCoin invalida!</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1950,7 +1950,7 @@ Adresa: %4
         <translation>Introduceti eticheta pentru ca aceasta adresa sa fie introdusa in lista de adrese folosite</translation>
     </message>
     <message>
-        <source>A message that was attached to the minegoldcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the MineGoldCoin network.</source>
+        <source>A message that was attached to the supertradecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the SuperTradeCoin network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1969,8 +1969,8 @@ Adresa: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>MineGoldCoin Core is shutting down...</source>
-        <translation>MineGoldCoin Core se închide...</translation>
+        <source>SuperTradeCoin Core is shutting down...</source>
+        <translation>SuperTradeCoin Core se închide...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1993,7 +1993,7 @@ Adresa: %4
     </message>
     <message>
         <source>The address to sign the message with (e.g. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</source>
-        <translation>Introduceţi o adresă MineGoldCoin (de exemplu: M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</translation>
+        <translation>Introduceţi o adresă SuperTradeCoin (de exemplu: M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2024,8 +2024,8 @@ Adresa: %4
         <translation>Copiaza semnatura curenta in clipboard-ul sistemului</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this MineGoldCoin address</source>
-        <translation>Semneaza mesajul pentru a dovedi ca detii acesta adresa MineGoldCoin</translation>
+        <source>Sign the message to prove you own this SuperTradeCoin address</source>
+        <translation>Semneaza mesajul pentru a dovedi ca detii acesta adresa SuperTradeCoin</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2049,11 +2049,11 @@ Adresa: %4
     </message>
     <message>
         <source>The address the message was signed with (e.g. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</source>
-        <translation>Introduceţi o adresă MineGoldCoin (de exemplu: M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</translation>
+        <translation>Introduceţi o adresă SuperTradeCoin (de exemplu: M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified MineGoldCoin address</source>
-        <translation>Verifica mesajul pentru a fi sigur ca a fost semnat cu adresa MineGoldCoin specifica</translation>
+        <source>Verify the message to ensure it was signed with the specified SuperTradeCoin address</source>
+        <translation>Verifica mesajul pentru a fi sigur ca a fost semnat cu adresa SuperTradeCoin specifica</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2064,8 +2064,8 @@ Adresa: %4
         <translation>Reseteaza toate spatiile mesajelor semnate.</translation>
     </message>
     <message>
-        <source>Enter a MineGoldCoin address (e.g. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</source>
-        <translation>Introduceţi o adresă MineGoldCoin (de exemplu: M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</translation>
+        <source>Enter a SuperTradeCoin address (e.g. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</source>
+        <translation>Introduceţi o adresă SuperTradeCoin (de exemplu: M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
@@ -2123,12 +2123,12 @@ Adresa: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>MineGoldCoin Core</source>
-        <translation>MineGoldCoin Core</translation>
+        <source>SuperTradeCoin Core</source>
+        <translation>SuperTradeCoin Core</translation>
     </message>
     <message>
-        <source>The MineGoldCoin Core developers</source>
-        <translation>Dezvoltatorii MineGoldCoin Core</translation>
+        <source>The SuperTradeCoin Core developers</source>
+        <translation>Dezvoltatorii SuperTradeCoin Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2549,7 +2549,7 @@ Adresa: %4
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Trimite MineGoldCoin</translation>
+        <translation>Trimite SuperTradeCoin</translation>
     </message>
 </context>
 <context>
@@ -2606,8 +2606,8 @@ Adresa: %4
         <translation>Setări:</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: minegoldcoin.conf)</source>
-        <translation>Specifică fișierul de configurare (implicit: minegoldcoin.conf)</translation>
+        <source>Specify configuration file (default: supertradecoin.conf)</source>
+        <translation>Specifică fișierul de configurare (implicit: supertradecoin.conf)</translation>
     </message>
     <message>
         <source>Specify pid file (default: bitcoind.pid)</source>
@@ -2654,7 +2654,7 @@ Adresa: %4
         <translation>Se acceptă comenzi din linia de comandă și comenzi JSON-RPC</translation>
     </message>
     <message>
-        <source>MineGoldCoin Core RPC client version</source>
+        <source>SuperTradeCoin Core RPC client version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2679,7 +2679,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;SuperTradeCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s trebuie sa setezi o parola rpc in fisierul de configurare
 %s
@@ -2690,7 +2690,7 @@ parola rpc=%s
 Numele de utilizator si parola NU trebuie sa fie la fel.
 Daca fisierul nu exista, creaza-l cu fisier de citit permis doar proprietarului.
 Este de asemenea recomandat sa setezi alerta de notificare ca sa primesti notificari ale problemelor;
-spre exemplu: alertnotify=echo %%s | mail -s &quot;Alerta MineGoldCoin&quot; admin@foo.com
+spre exemplu: alertnotify=echo %%s | mail -s &quot;Alerta SuperTradeCoin&quot; admin@foo.com
 
 </translation>
     </message>
@@ -2763,7 +2763,7 @@ spre exemplu: alertnotify=echo %%s | mail -s &quot;Alerta MineGoldCoin&quot; adm
         <translation>Aceasta este o versiune de test preliminara - va asumati riscul folosind-o - nu folositi pentru minerit sau aplicatiile comerciantilor.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. MineGoldCoin Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. SuperTradeCoin Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2775,8 +2775,8 @@ spre exemplu: alertnotify=echo %%s | mail -s &quot;Alerta MineGoldCoin&quot; adm
         <translation>Atentie: setarea -paytxfee este foarte ridicata! Aceasta este taxa tranzactiei pe care o vei plati daca trimiti o tranzactie.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong MineGoldCoin will not work properly.</source>
-        <translation>Atentie: Va rugam verificati daca data/timpul computerului dumneavoastra sunt corecte! Daca ceasul computerului este decalat, MineGoldCoin nu va functiona corect.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong SuperTradeCoin will not work properly.</source>
+        <translation>Atentie: Va rugam verificati daca data/timpul computerului dumneavoastra sunt corecte! Daca ceasul computerului este decalat, SuperTradeCoin nu va functiona corect.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -2811,8 +2811,8 @@ spre exemplu: alertnotify=echo %%s | mail -s &quot;Alerta MineGoldCoin&quot; adm
         <translation>Încearcă recuperarea cheilor private dintr-un wallet.dat corupt</translation>
     </message>
     <message>
-        <source>MineGoldCoin Core Daemon</source>
-        <translation>Daemon-ul MineGoldCoin Core</translation>
+        <source>SuperTradeCoin Core Daemon</source>
+        <translation>Daemon-ul SuperTradeCoin Core</translation>
     </message>
     <message>
         <source>Block creation options:</source>
@@ -3019,8 +3019,8 @@ spre exemplu: alertnotify=echo %%s | mail -s &quot;Alerta MineGoldCoin&quot; adm
         <translation>Este folosita pentru programe de testare a regresiei in algoritmi si  dezvoltare de alte aplicatii. </translation>
     </message>
     <message>
-        <source>Usage (deprecated, use minegoldcoin-cli):</source>
-        <translation>Utilizare (învechită, folositi minegoldcoin-cli):</translation>
+        <source>Usage (deprecated, use supertradecoin-cli):</source>
+        <translation>Utilizare (învechită, folositi supertradecoin-cli):</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -3055,7 +3055,7 @@ spre exemplu: alertnotify=echo %%s | mail -s &quot;Alerta MineGoldCoin&quot; adm
         <translation>Importă blocuri dintr-un fișier extern blk000??.dat</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. MineGoldCoin Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. SuperTradeCoin Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3140,11 +3140,11 @@ spre exemplu: alertnotify=echo %%s | mail -s &quot;Alerta MineGoldCoin&quot; adm
     </message>
     <message>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>Optiuni SSl (vezi MineGoldCoin wiki pentru intructiunile de instalare)</translation>
+        <translation>Optiuni SSl (vezi SuperTradeCoin wiki pentru intructiunile de instalare)</translation>
     </message>
     <message>
-        <source>Send command to MineGoldCoin Core</source>
-        <translation>Trimitere comenzi catre MineGoldCoin Core</translation>
+        <source>Send command to SuperTradeCoin Core</source>
+        <translation>Trimitere comenzi catre SuperTradeCoin Core</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -3179,7 +3179,7 @@ spre exemplu: alertnotify=echo %%s | mail -s &quot;Alerta MineGoldCoin&quot; adm
         <translation>Specifică intervalul maxim de conectare în milisecunde (implicit: 5000)</translation>
     </message>
     <message>
-        <source>Start MineGoldCoin Core Daemon</source>
+        <source>Start SuperTradeCoin Core Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3295,12 +3295,12 @@ spre exemplu: alertnotify=echo %%s | mail -s &quot;Alerta MineGoldCoin&quot; adm
         <translation>Eroare la încărcarea wallet.dat: Portofel corupt</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of MineGoldCoin</source>
-        <translation>Eroare la încărcarea wallet.dat: Portofelul are nevoie de o versiune MineGoldCoin mai nouă</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of SuperTradeCoin</source>
+        <translation>Eroare la încărcarea wallet.dat: Portofelul are nevoie de o versiune SuperTradeCoin mai nouă</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart MineGoldCoin to complete</source>
-        <translation>Portofelul trebuie rescris: repornește MineGoldCoin pentru finalizare</translation>
+        <source>Wallet needed to be rewritten: restart SuperTradeCoin to complete</source>
+        <translation>Portofelul trebuie rescris: repornește SuperTradeCoin pentru finalizare</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>

@@ -543,7 +543,7 @@ void SendCoinsDialog::coinControlChangeEdited(const QString& text)
         }
         else if (!addr.IsValid()) // Invalid address
         {
-            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid MineGoldCoin address"));
+            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid SuperTradeCoin address"));
         }
         else // Valid address
         {

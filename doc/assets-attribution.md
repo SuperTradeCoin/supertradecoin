@@ -97,8 +97,8 @@ Jonas Schnelli
 * License: MIT
 
 ### Assets Used
-	src/qt/res/icons/minegoldcoin.icns, src/qt/res/src/minegoldcoin.svg,
-	src/qt/res/src/minegoldcoin.ico, src/qt/res/src/minegoldcoin.png,
-	src/qt/res/src/minegoldcoin_testnet.png, docs/minegoldcoin_logo_doxygen.png,
+	src/qt/res/icons/supertradecoin.icns, src/qt/res/src/supertradecoin.svg,
+	src/qt/res/src/supertradecoin.ico, src/qt/res/src/supertradecoin.png,
+	src/qt/res/src/supertradecoin_testnet.png, docs/supertradecoin_logo_doxygen.png,
 	src/qt/res/icons/toolbar.png, src/qt/res/icons/toolbar_testnet.png,
 	src/qt/res/images/splash.png, src/qt/res/images/splash_testnet.png

@@ -128,7 +128,7 @@ Threads
 
 - ThreadMapPort : Universal plug-and-play startup/shutdown
 
-- ThreadSocketHandler : Sends/Receives data from peers on port 34437.
+- ThreadSocketHandler : Sends/Receives data from peers on port 46637.
 
 - ThreadOpenAddedConnections : Opens network connections to added nodes.
 
@@ -140,8 +140,8 @@ Threads
 
 - ThreadFlushWalletDB : Close the wallet.dat file if it hasn't been used in 500ms.
 
-- ThreadRPCServer : Remote procedure call handler, listens on port 34436 for connections and services them.
+- ThreadRPCServer : Remote procedure call handler, listens on port 46636 for connections and services them.
 
-- MineGoldCoinMiner : Generates minegoldcoin (if wallet is enabled).
+- SuperTradeCoinMiner : Generates supertradecoin (if wallet is enabled).
 
 - Shutdown : Does an orderly shutdown of everything.

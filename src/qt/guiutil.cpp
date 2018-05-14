@@ -86,7 +86,7 @@ void setupAddressWidget(QValidatedLineEdit *widget, QWidget *parent)
 
     widget->setFont(bitcoinAddressFont());
 #if QT_VERSION >= 0x040700
-    widget->setPlaceholderText(QObject::tr("Enter a MineGoldCoin address (e.g. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)"));
+    widget->setPlaceholderText(QObject::tr("Enter a SuperTradeCoin address (e.g. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)"));
 #endif
     widget->setValidator(new BitcoinAddressEntryValidator(parent));
     widget->setCheckValidator(new BitcoinAddressCheckValidator(parent));
@@ -103,8 +103,8 @@ void setupAmountWidget(QLineEdit *widget, QWidget *parent)
 
 bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 {
-    // return if URI is not valid or is no minegoldcoin: URI
-    if(!uri.isValid() || uri.scheme() != QString("minegoldcoin"))
+    // return if URI is not valid or is no supertradecoin: URI
+    if(!uri.isValid() || uri.scheme() != QString("supertradecoin"))
         return false;
 
     SendCoinsRecipient rv;
@@ -146,7 +146,7 @@ bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
                 // Parse amount in C locale with no number separators
                 QLocale locale(QLocale::c());
                 locale.setNumberOptions(QLocale::OmitGroupSeparator | QLocale::RejectGroupSeparator);
-                if(!BitcoinUnits::parse(BitcoinUnits::MGC, i->second, &rv.amount, locale))
+                if(!BitcoinUnits::parse(BitcoinUnits::SPTDC, i->second, &rv.amount, locale))
                 {
                     return false;
                 }
@@ -166,13 +166,13 @@ bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 
 bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 {
-    // Convert minegoldcoin:// to minegoldcoin:
+    // Convert supertradecoin:// to supertradecoin:
     //
-    //    Cannot handle this later, because minegoldcoin:// will cause Qt to see the part after // as host,
+    //    Cannot handle this later, because supertradecoin:// will cause Qt to see the part after // as host,
     //    which will lower-case it (and thus invalidate the address).
-    if(uri.startsWith("minegoldcoin://", Qt::CaseInsensitive))
+    if(uri.startsWith("supertradecoin://", Qt::CaseInsensitive))
     {
-        uri.replace(0, 11, "minegoldcoin:");
+        uri.replace(0, 11, "supertradecoin:");
     }
     
     QUrl uriInstance(uri);
@@ -181,14 +181,14 @@ bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 
 QString formatBitcoinURI(const SendCoinsRecipient &info)
 {
-    QString ret = QString("minegoldcoin:%1").arg(info.address);
+    QString ret = QString("supertradecoin:%1").arg(info.address);
     int paramCount = 0;
 
     if (info.amount)
     {
         QLocale localeC(QLocale::c());
         localeC.setNumberOptions(QLocale::OmitGroupSeparator | QLocale::RejectGroupSeparator);
-        ret += QString("?amount=%1").arg(BitcoinUnits::format(BitcoinUnits::MGC, info.amount, false, true, localeC));
+        ret += QString("?amount=%1").arg(BitcoinUnits::format(BitcoinUnits::SPTDC, info.amount, false, true, localeC));
         paramCount++;
     }
 
@@ -515,12 +515,12 @@ TableViewLastColumnResizingFixer::TableViewLastColumnResizingFixer(QTableView* t
 #ifdef WIN32
 boost::filesystem::path static StartupShortcutPath()
 {
-    return GetSpecialFolderPath(CSIDL_STARTUP) / "MineGoldCoin.lnk";
+    return GetSpecialFolderPath(CSIDL_STARTUP) / "SuperTradeCoin.lnk";
 }
 
 bool GetStartOnSystemStartup()
 {
-    // check for MineGoldCoin.lnk
+    // check for SuperTradeCoin.lnk
     return boost::filesystem::exists(StartupShortcutPath());
 }
 
@@ -597,7 +597,7 @@ boost::filesystem::path static GetAutostartDir()
 
 boost::filesystem::path static GetAutostartFilePath()
 {
-    return GetAutostartDir() / "minegoldcoin.desktop";
+    return GetAutostartDir() / "supertradecoin.desktop";
 }
 
 bool GetStartOnSystemStartup()
@@ -638,7 +638,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         // Write a bitcoin.desktop file to the autostart directory:
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
-        optionFile << "Name=MineGoldCoin\n";
+        optionFile << "Name=SuperTradeCoin\n";
         optionFile << "Exec=" << pszExePath << " -min\n";
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";

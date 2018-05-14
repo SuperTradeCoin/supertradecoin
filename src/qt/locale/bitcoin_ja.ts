@@ -2,11 +2,11 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About MineGoldCoin Core</source>
+        <source>About SuperTradeCoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>&lt;b&gt;MineGoldCoin Core&lt;/b&gt; version</source>
+        <source>&lt;b&gt;SuperTradeCoin Core&lt;/b&gt; version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -28,7 +28,7 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
         <translation>Copyright</translation>
     </message>
     <message>
-        <source>The MineGoldCoin Core developers</source>
+        <source>The SuperTradeCoin Core developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -103,11 +103,11 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
         <translation>アドレス受信中</translation>
     </message>
     <message>
-        <source>These are your MineGoldCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>これらは支払いを送信するためのあなたの MineGoldCoin アドレスです。コインを送信する前に、常に額と受信アドレスを確認してください。</translation>
+        <source>These are your SuperTradeCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>これらは支払いを送信するためのあなたの SuperTradeCoin アドレスです。コインを送信する前に、常に額と受信アドレスを確認してください。</translation>
     </message>
     <message>
-        <source>These are your MineGoldCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your SuperTradeCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -205,8 +205,8 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
         <translation>ウォレットの暗号化を確認する</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MGCCOINS&lt;/b&gt;!</source>
-        <translation>警告: もしもあなたのウォレットを暗号化してパスフレーズを失ってしまったなら、&lt;b&gt;あなたの MineGoldCoin はすべて失われます&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SPTDCCOINS&lt;/b&gt;!</source>
+        <translation>警告: もしもあなたのウォレットを暗号化してパスフレーズを失ってしまったなら、&lt;b&gt;あなたの SuperTradeCoin はすべて失われます&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -225,8 +225,8 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
         <translation>ウォレットは暗号化されました</translation>
     </message>
     <message>
-        <source>MineGoldCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your minegoldcoins from being stolen by malware infecting your computer.</source>
-        <translation>MineGoldCoin は暗号化プロセスを終了するために今すぐ終了します。あなたのコンピュータがマルウェアに感染してコインを盗まれることもあるので、暗号化してもあなたのウォレットを完全に保護できないことを覚えていてください。</translation>
+        <source>SuperTradeCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your supertradecoins from being stolen by malware infecting your computer.</source>
+        <translation>SuperTradeCoin は暗号化プロセスを終了するために今すぐ終了します。あなたのコンピュータがマルウェアに感染してコインを盗まれることもあるので、暗号化してもあなたのウォレットを完全に保護できないことを覚えていてください。</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -296,8 +296,8 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
         <translation>アプリケーションを終了</translation>
     </message>
     <message>
-        <source>Show information about MineGoldCoin</source>
-        <translation>MineGoldCoinに関する情報を見る</translation>
+        <source>Show information about SuperTradeCoin</source>
+        <translation>SuperTradeCoinに関する情報を見る</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -344,12 +344,12 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
         <translation>ディスク上のブロックのインデックスを再作成中...</translation>
     </message>
     <message>
-        <source>Send coins to a MineGoldCoin address</source>
-        <translation>MineGoldCoin アドレスにコインを送る</translation>
+        <source>Send coins to a SuperTradeCoin address</source>
+        <translation>SuperTradeCoin アドレスにコインを送る</translation>
     </message>
     <message>
-        <source>Modify configuration options for MineGoldCoin Core</source>
-        <translation>MineGoldCoin の設定を変更する</translation>
+        <source>Modify configuration options for SuperTradeCoin Core</source>
+        <translation>SuperTradeCoin の設定を変更する</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -372,8 +372,8 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
         <translation>メッセージの検証... (&amp;V)</translation>
     </message>
     <message>
-        <source>MineGoldCoin</source>
-        <translation>MineGoldCoin</translation>
+        <source>SuperTradeCoin</source>
+        <translation>SuperTradeCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -400,12 +400,12 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
         <translation>あなたのウォレットの秘密鍵を暗号化します</translation>
     </message>
     <message>
-        <source>Sign messages with your MineGoldCoin addresses to prove you own them</source>
-        <translation>あなたが所有していることを証明するために、あなたの MineGoldCoin アドレスでメッセージに署名してください</translation>
+        <source>Sign messages with your SuperTradeCoin addresses to prove you own them</source>
+        <translation>あなたが所有していることを証明するために、あなたの SuperTradeCoin アドレスでメッセージに署名してください</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified MineGoldCoin addresses</source>
-        <translation>指定された MineGoldCoin アドレスで署名されたことを確認するためにメッセージを検証します</translation>
+        <source>Verify messages to ensure they were signed with specified SuperTradeCoin addresses</source>
+        <translation>指定された SuperTradeCoin アドレスで署名されたことを確認するためにメッセージを検証します</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -428,15 +428,15 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>MineGoldCoin Core</source>
-        <translation>MineGoldCoin のコア</translation>
+        <source>SuperTradeCoin Core</source>
+        <translation>SuperTradeCoin のコア</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and minegoldcoin: URIs)</source>
+        <source>Request payments (generates QR codes and supertradecoin: URIs)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>&amp;About MineGoldCoin Core</source>
+        <source>&amp;About SuperTradeCoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -448,7 +448,7 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
         <translation>支払いを受け取るアドレスとラベルのリストを表示する</translation>
     </message>
     <message>
-        <source>Open a minegoldcoin: URI or payment request</source>
+        <source>Open a supertradecoin: URI or payment request</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -456,16 +456,16 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Show the MineGoldCoin Core help message to get a list with possible command-line options</source>
+        <source>Show the SuperTradeCoin Core help message to get a list with possible command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>MineGoldCoin client</source>
-        <translation>MineGoldCoin クライアント</translation>
+        <source>SuperTradeCoin client</source>
+        <translation>SuperTradeCoin クライアント</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to MineGoldCoin network</source>
-        <translation><numerusform>%n の MineGoldCoin ネットワークへのアクティブな接続</numerusform></translation>
+        <source>%n active connection(s) to SuperTradeCoin network</source>
+        <translation><numerusform>%n の SuperTradeCoin ネットワークへのアクティブな接続</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -559,8 +559,8 @@ Address: %4
         <translation>ウォレットは&lt;b&gt;暗号化されて、ロックされています&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. MineGoldCoin can no longer continue safely and will quit.</source>
-        <translation>致命的なエラーが発生しました。MineGoldCoin は安全に継続することができず終了するでしょう。
+        <source>A fatal error occurred. SuperTradeCoin can no longer continue safely and will quit.</source>
+        <translation>致命的なエラーが発生しました。SuperTradeCoin は安全に継続することができず終了するでしょう。
 </translation>
     </message>
 </context>
@@ -849,8 +849,8 @@ Address: %4
         <translation>入力されたアドレス &quot;%1&quot; は既にアドレス帳にあります。</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid MineGoldCoin address.</source>
-        <translation>入力されたアドレス &quot;%1&quot; は無効な MineGoldCoin アドレスです。</translation>
+        <source>The entered address &quot;%1&quot; is not a valid SuperTradeCoin address.</source>
+        <translation>入力されたアドレス &quot;%1&quot; は無効な SuperTradeCoin アドレスです。</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -887,12 +887,12 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>MineGoldCoin Core - Command-line options</source>
+        <source>SuperTradeCoin Core - Command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>MineGoldCoin Core</source>
-        <translation>MineGoldCoin のコア</translation>
+        <source>SuperTradeCoin Core</source>
+        <translation>SuperTradeCoin のコア</translation>
     </message>
     <message>
         <source>version</source>
@@ -938,15 +938,15 @@ Address: %4
         <translation>ようこそ</translation>
     </message>
     <message>
-        <source>Welcome to MineGoldCoin Core.</source>
+        <source>Welcome to SuperTradeCoin Core.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where MineGoldCoin Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where SuperTradeCoin Core will store its data.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>MineGoldCoin Core will download and store a copy of the MineGoldCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>SuperTradeCoin Core will download and store a copy of the SuperTradeCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -958,8 +958,8 @@ Address: %4
         <translation>任意のデータ ディレクトリを使用:</translation>
     </message>
     <message>
-        <source>MineGoldCoin</source>
-        <translation>MineGoldCoin</translation>
+        <source>SuperTradeCoin</source>
+        <translation>SuperTradeCoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
@@ -1020,12 +1020,12 @@ Address: %4
         <translation>支払う取引手数料 (&amp;f)</translation>
     </message>
     <message>
-        <source>Automatically start MineGoldCoin Core after logging in to the system.</source>
-        <translation>システムにログインした時に自動的に MineGoldCoin を起動します。</translation>
+        <source>Automatically start SuperTradeCoin Core after logging in to the system.</source>
+        <translation>システムにログインした時に自動的に SuperTradeCoin を起動します。</translation>
     </message>
     <message>
-        <source>&amp;Start MineGoldCoin Core on system login</source>
-        <translation>システムにログインした時に MineGoldCoin を起動 (&amp;S)</translation>
+        <source>&amp;Start SuperTradeCoin Core on system login</source>
+        <translation>システムにログインした時に SuperTradeCoin を起動 (&amp;S)</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1040,7 +1040,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Connect to the MineGoldCoin network through a SOCKS proxy.</source>
+        <source>Connect to the SuperTradeCoin network through a SOCKS proxy.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1092,8 +1092,8 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Automatically open the MineGoldCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自動的にルーター上の MineGoldCoin クライアントのポートを開きます。あなたのルーターが UPnP に対応していて、それが有効になっている場合に作動します。</translation>
+        <source>Automatically open the SuperTradeCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>自動的にルーター上の SuperTradeCoin クライアントのポートを開きます。あなたのルーターが UPnP に対応していて、それが有効になっている場合に作動します。</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1148,8 +1148,8 @@ Address: %4
         <translation>ユーザインターフェースの言語 (&amp;l) :</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting MineGoldCoin Core.</source>
-        <translation>ここでユーザインターフェースの言語を設定できます。設定を反映するには MineGoldCoin を再起動します。</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting SuperTradeCoin Core.</source>
+        <translation>ここでユーザインターフェースの言語を設定できます。設定を反映するには SuperTradeCoin を再起動します。</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1160,8 +1160,8 @@ Address: %4
         <translation>インターフェース上の表示とコインの送信で使用する単位を選択します。</translation>
     </message>
     <message>
-        <source>Whether to show MineGoldCoin addresses in the transaction list or not.</source>
-        <translation>最近の取引履歴で MineGoldCoin アドレスを表示するかしないか。</translation>
+        <source>Whether to show SuperTradeCoin addresses in the transaction list or not.</source>
+        <translation>最近の取引履歴で SuperTradeCoin アドレスを表示するかしないか。</translation>
     </message>
     <message>
         <source>&amp;Display addresses in transaction list</source>
@@ -1215,8 +1215,8 @@ Address: %4
         <translation>フォーム</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MineGoldCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>表示された情報は古いかもしれません。接続が確立されると、あなたのウォレットは MineGoldCoin ネットワークと自動的に同期しますが、このプロセスはまだ完了していません。</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SuperTradeCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>表示された情報は古いかもしれません。接続が確立されると、あなたのウォレットは SuperTradeCoin ネットワークと自動的に同期しますが、このプロセスはまだ完了していません。</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -1270,8 +1270,8 @@ Address: %4
         <translation>URI の操作</translation>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid MineGoldCoin address or malformed URI parameters.</source>
-        <translation>URI を解析できません! これは無効な MineGoldCoin アドレスあるいや不正な形式の URI パラメーターによって引き起こされる場合があります。
+        <source>URI can not be parsed! This can be caused by an invalid SuperTradeCoin address or malformed URI parameters.</source>
+        <translation>URI を解析できません! これは無効な SuperTradeCoin アドレスあるいや不正な形式の URI パラメーターによって引き起こされる場合があります。
 </translation>
     </message>
     <message>
@@ -1283,8 +1283,8 @@ Address: %4
         <translation>支払いのリクエストのエラーです</translation>
     </message>
     <message>
-        <source>Cannot start minegoldcoin: click-to-pay handler</source>
-        <translation>MineGoldCoin を起動できません: click-to-pay handler</translation>
+        <source>Cannot start supertradecoin: click-to-pay handler</source>
+        <translation>SuperTradeCoin を起動できません: click-to-pay handler</translation>
     </message>
     <message>
         <source>Net manager warning</source>
@@ -1338,8 +1338,8 @@ Address: %4
 <context>
     <name>QObject</name>
     <message>
-        <source>MineGoldCoin</source>
-        <translation>MineGoldCoin</translation>
+        <source>SuperTradeCoin</source>
+        <translation>SuperTradeCoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
@@ -1354,12 +1354,12 @@ Address: %4
         <translation>エラー：　-regtestと-testnetは一緒にするのは無効です。</translation>
     </message>
     <message>
-        <source>MineGoldCoin Core did&apos;t yet exit safely...</source>
+        <source>SuperTradeCoin Core did&apos;t yet exit safely...</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Enter a MineGoldCoin address (e.g. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</source>
-        <translation>MineGoldCoin アドレスを入力します (e.g. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</translation>
+        <source>Enter a SuperTradeCoin address (e.g. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</source>
+        <translation>SuperTradeCoin アドレスを入力します (e.g. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</translation>
     </message>
 </context>
 <context>
@@ -1480,16 +1480,16 @@ Address: %4
         <translation>デバッグ用ログファイル</translation>
     </message>
     <message>
-        <source>Open the MineGoldCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>現在のデータ ディレクトリから MineGoldCoin のデバッグ用ログファイルを開きます。ログファイルが大規模な場合には数秒かかることがあります。</translation>
+        <source>Open the SuperTradeCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>現在のデータ ディレクトリから SuperTradeCoin のデバッグ用ログファイルを開きます。ログファイルが大規模な場合には数秒かかることがあります。</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>コンソールをクリア</translation>
     </message>
     <message>
-        <source>Welcome to the MineGoldCoin RPC console.</source>
-        <translation>MineGoldCoin RPC コンソールへようこそ。</translation>
+        <source>Welcome to the SuperTradeCoin RPC console.</source>
+        <translation>SuperTradeCoin RPC コンソールへようこそ。</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1551,7 +1551,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the MineGoldCoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the SuperTradeCoin network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1864,7 +1864,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Warning: Invalid MineGoldCoin address</source>
+        <source>Warning: Invalid SuperTradeCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1951,7 +1951,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>A message that was attached to the minegoldcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the MineGoldCoin network.</source>
+        <source>A message that was attached to the supertradecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the SuperTradeCoin network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1970,7 +1970,7 @@ Address: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>MineGoldCoin Core is shutting down...</source>
+        <source>SuperTradeCoin Core is shutting down...</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2025,8 +2025,8 @@ Address: %4
         <translation>現在の署名をシステムのクリップボードにコピーする</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this MineGoldCoin address</source>
-        <translation>この MineGoldCoin アドレスを所有していることを証明するためにメッセージに署名</translation>
+        <source>Sign the message to prove you own this SuperTradeCoin address</source>
+        <translation>この SuperTradeCoin アドレスを所有していることを証明するためにメッセージに署名</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2053,8 +2053,8 @@ Address: %4
         <translation>メッセージが署名されたアドレス (例 M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified MineGoldCoin address</source>
-        <translation>指定された MineGoldCoin アドレスで署名されたことを保証するメッセージを検証</translation>
+        <source>Verify the message to ensure it was signed with the specified SuperTradeCoin address</source>
+        <translation>指定された SuperTradeCoin アドレスで署名されたことを保証するメッセージを検証</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2065,8 +2065,8 @@ Address: %4
         <translation>入力項目の内容をすべて消去します</translation>
     </message>
     <message>
-        <source>Enter a MineGoldCoin address (e.g. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</source>
-        <translation>MineGoldCoin アドレスを入力します (e.g. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</translation>
+        <source>Enter a SuperTradeCoin address (e.g. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</source>
+        <translation>SuperTradeCoin アドレスを入力します (e.g. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
@@ -2124,11 +2124,11 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>MineGoldCoin Core</source>
-        <translation>MineGoldCoin のコア</translation>
+        <source>SuperTradeCoin Core</source>
+        <translation>SuperTradeCoin のコア</translation>
     </message>
     <message>
-        <source>The MineGoldCoin Core developers</source>
+        <source>The SuperTradeCoin Core developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2607,8 +2607,8 @@ Address: %4
         <translation>オプション:</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: minegoldcoin.conf)</source>
-        <translation>設定ファイルの指定 (初期値: minegoldcoin.conf)</translation>
+        <source>Specify configuration file (default: supertradecoin.conf)</source>
+        <translation>設定ファイルの指定 (初期値: supertradecoin.conf)</translation>
     </message>
     <message>
         <source>Specify pid file (default: bitcoind.pid)</source>
@@ -2655,7 +2655,7 @@ Address: %4
         <translation>コマンドラインと JSON-RPC コマンドを許可</translation>
     </message>
     <message>
-        <source>MineGoldCoin Core RPC client version</source>
+        <source>SuperTradeCoin Core RPC client version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2680,7 +2680,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;SuperTradeCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, rpcpassword を設定ファイルで設定してください:
 %s
@@ -2691,7 +2691,7 @@ rpcpassword=%s
 ユーザー名とパスワードが同じであってはいけません。
 もしもファイルが存在しないなら、所有者だけが読み取れる権限で作成してください。
 また、問題が通知されるように alertnotify を設定することをお勧めします;
-例えば: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admin@foo.com</translation>
+例えば: alertnotify=echo %%s | mail -s &quot;SuperTradeCoin Alert&quot; admin@foo.com</translation>
     </message>
     <message>
         <source>Acceptable ciphers (default: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</source>
@@ -2762,7 +2762,7 @@ rpcpassword=%s
         <translation>これはリリース前のテストビルドです - 各自の責任で利用すること - 採掘や商取引に使用しないでください</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. MineGoldCoin Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. SuperTradeCoin Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2774,8 +2774,8 @@ rpcpassword=%s
         <translation>警告: -paytxfee が非常に高く設定されています! これは取引を送信する場合に支払う取引手数料です。</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong MineGoldCoin will not work properly.</source>
-        <translation>警告: あなたのコンピュータの日時が正しいことを確認してください! 時計が間違っていると MineGoldCoin は正常に動作しません。</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong SuperTradeCoin will not work properly.</source>
+        <translation>警告: あなたのコンピュータの日時が正しいことを確認してください! 時計が間違っていると SuperTradeCoin は正常に動作しません。</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -2810,7 +2810,7 @@ rpcpassword=%s
         <translation>壊れた wallet.dat から秘密鍵を復旧することを試す</translation>
     </message>
     <message>
-        <source>MineGoldCoin Core Daemon</source>
+        <source>SuperTradeCoin Core Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3019,7 +3019,7 @@ rpcpassword=%s
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Usage (deprecated, use minegoldcoin-cli):</source>
+        <source>Usage (deprecated, use supertradecoin-cli):</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3055,7 +3055,7 @@ rpcpassword=%s
         <translation>外部の blk000??.dat ファイルからブロックをインポート</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. MineGoldCoin Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. SuperTradeCoin Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3143,7 +3143,7 @@ rpcpassword=%s
         <translation>SSL オプション: (SSLのセットアップ手順は Bitcoin Wiki をご覧下さい)</translation>
     </message>
     <message>
-        <source>Send command to MineGoldCoin Core</source>
+        <source>Send command to SuperTradeCoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3179,7 +3179,7 @@ rpcpassword=%s
         <translation>接続のタイムアウトをミリセコンドで指定 (初期値: 5000)</translation>
     </message>
     <message>
-        <source>Start MineGoldCoin Core Daemon</source>
+        <source>Start SuperTradeCoin Core Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3295,12 +3295,12 @@ rpcpassword=%s
         <translation>wallet.dat 読み込みエラー: ウォレットが壊れました</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of MineGoldCoin</source>
-        <translation>wallet.dat 読み込みエラー: ウォレットは MineGoldCoin の最新バージョンを必要とします</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of SuperTradeCoin</source>
+        <translation>wallet.dat 読み込みエラー: ウォレットは SuperTradeCoin の最新バージョンを必要とします</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart MineGoldCoin to complete</source>
-        <translation>ウォレットが書き直される必要がありました: 完了するために MineGoldCoin を再起動します</translation>
+        <source>Wallet needed to be rewritten: restart SuperTradeCoin to complete</source>
+        <translation>ウォレットが書き直される必要がありました: 完了するために SuperTradeCoin を再起動します</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>

@@ -1,6 +1,6 @@
 Mac OS X Build Instructions and Notes
 ====================================
-This guide will show you how to build minegoldcoind(headless client) for OSX.
+This guide will show you how to build supertradecoind(headless client) for OSX.
 
 Notes
 -----
@@ -52,14 +52,14 @@ Optional: install Qt4
 
     sudo port install qt4-mac qrencode protobuf-cpp
 
-### Building `minegoldcoind`
+### Building `supertradecoind`
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone git@github.com:minegoldcoin/minegoldcoin.git minegoldcoin
-        cd minegoldcoin
+        git clone git@github.com:supertradecoin/supertradecoin.git supertradecoin
+        cd supertradecoin
 
-2.  Build minegoldcoind (and MineGoldCoin-Qt, if configured):
+2.  Build supertradecoind (and SuperTradeCoin-Qt, if configured):
 
         ./autogen.sh
         ./configure
@@ -76,14 +76,14 @@ Instructions: Homebrew
 
         brew install autoconf automake berkeley-db boost miniupnpc openssl pkg-config protobuf qt
 
-### Building `minegoldcoind`
+### Building `supertradecoind`
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone https://github.com/minegoldcoin/minegoldcoin.git
-        cd minegoldcoin
+        git clone https://github.com/supertradecoin/supertradecoin.git
+        cd supertradecoin
 
-2.  Build minegoldcoind:
+2.  Build supertradecoind:
 
         ./autogen.sh
         ./configure
@@ -95,11 +95,11 @@ Instructions: Homebrew
 
 Creating a release build
 ------------------------
-You can ignore this section if you are building `minegoldcoind` for your own use.
+You can ignore this section if you are building `supertradecoind` for your own use.
 
-minegoldcoind/minegoldcoin-cli binaries are not included in the MineGoldCoin-Qt.app bundle.
+supertradecoind/supertradecoin-cli binaries are not included in the SuperTradeCoin-Qt.app bundle.
 
-If you are building `minegoldcoind` or `MineGoldCoin-Qt` for others, your build machine should be set up
+If you are building `supertradecoind` or `SuperTradeCoin-Qt` for others, your build machine should be set up
 as follows for maximum compatibility:
 
 All dependencies should be compiled with these flags:
@@ -120,29 +120,29 @@ As of December 2012, the `boost` port does not obey `macosx_deployment_target`.
 Download `http://gavinandresen-bitcoin.s3.amazonaws.com/boost_macports_fix.zip`
 for a fix.
 
-Once dependencies are compiled, see release-process.md for how the MineGoldCoin-Qt.app
+Once dependencies are compiled, see release-process.md for how the SuperTradeCoin-Qt.app
 bundle is packaged and signed to create the .dmg disk image that is distributed.
 
 Running
 -------
 
-It's now available at `./minegoldcoind`, provided that you are still in the `src`
+It's now available at `./supertradecoind`, provided that you are still in the `src`
 directory. We have to first create the RPC configuration file, though.
 
-Run `./minegoldcoind` to get the filename where it should be put, or just try these
+Run `./supertradecoind` to get the filename where it should be put, or just try these
 commands:
 
-    echo -e "rpcuser=minegoldcoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/MineGoldCoin/minegoldcoin.conf"
-    chmod 600 "/Users/${USER}/Library/Application Support/MineGoldCoin/minegoldcoin.conf"
+    echo -e "rpcuser=supertradecoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/SuperTradeCoin/supertradecoin.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/SuperTradeCoin/supertradecoin.conf"
 
 When next you run it, it will start downloading the blockchain, but it won't
 output anything while it's doing this. This process may take several hours;
 you can monitor its process by looking at the debug.log file, like this:
 
-    tail -f $HOME/Library/Application\ Support/MineGoldCoin/debug.log
+    tail -f $HOME/Library/Application\ Support/SuperTradeCoin/debug.log
 
 Other commands:
 
-    ./minegoldcoind -daemon # to start the minegoldcoin daemon.
-    ./minegoldcoin-cli --help  # for a list of command-line options.
-    ./minegoldcoin-cli help    # When the daemon is running, to get a list of RPC commands
+    ./supertradecoind -daemon # to start the supertradecoin daemon.
+    ./supertradecoin-cli --help  # for a list of command-line options.
+    ./supertradecoin-cli help    # When the daemon is running, to get a list of RPC commands

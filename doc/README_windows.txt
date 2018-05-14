@@ -1,8 +1,8 @@
-MineGoldCoin 1.8.1
+SuperTradeCoin 1.8.1
 
 * Copyright (c) 2009-2014 Bitcoin Developers
 * Copyright (c) 2011-2013 Litecoin Developers
-* Copyright (c) 2013-2014 MineGoldCoin Developers
+* Copyright (c) 2013-2014 SuperTradeCoin Developers
 
 Distributed under the MIT/X11 software license, see the accompanying
 file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -13,7 +13,7 @@ cryptographic software written by Eric Young (eay@cryptsoft.com).
 
 Intro
 -----
-MineGoldCoin is a free open source peer-to-peer electronic cash system that is
+SuperTradeCoin is a free open source peer-to-peer electronic cash system that is
 completely decentralized, without the need for a central server or trusted
 parties.  Users hold the crypto keys to their own money and transact directly
 with each other, with the help of a P2P network to check for double-spending.
@@ -21,13 +21,13 @@ with each other, with the help of a P2P network to check for double-spending.
 
 Setup
 -----
-Unpack the files into a directory and run minegoldcoin-qt.exe.
+Unpack the files into a directory and run supertradecoin-qt.exe.
 
-MineGoldCoin Core is the original MineGoldCoin client and it builds the backbone of the network.
-However, it downloads and stores the entire history of MineGoldCoin transactions;
+SuperTradeCoin Core is the original SuperTradeCoin client and it builds the backbone of the network.
+However, it downloads and stores the entire history of SuperTradeCoin transactions;
 depending on the speed of your computer and network connection, the synchronization
 process can take anywhere from a few hours to a day or more.
 
-See the MineGoldCoin wiki at:
+See the SuperTradeCoin wiki at:
   http://dogeco.in/
 for more help and information.

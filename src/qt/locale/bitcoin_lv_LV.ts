@@ -2,12 +2,12 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About MineGoldCoin Core</source>
-        <translation>Par MineGoldCoin Core</translation>
+        <source>About SuperTradeCoin Core</source>
+        <translation>Par SuperTradeCoin Core</translation>
     </message>
     <message>
-        <source>&lt;b&gt;MineGoldCoin Core&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;MineGoldCoin Core&lt;/b&gt; versija</translation>
+        <source>&lt;b&gt;SuperTradeCoin Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;SuperTradeCoin Core&lt;/b&gt; versija</translation>
     </message>
     <message>
         <source>
@@ -23,8 +23,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Autortiesības</translation>
     </message>
     <message>
-        <source>The MineGoldCoin Core developers</source>
-        <translation>MineGoldCoin Core izstrādātāji</translation>
+        <source>The SuperTradeCoin Core developers</source>
+        <translation>SuperTradeCoin Core izstrādātāji</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -98,11 +98,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Saņemšanas adreses</translation>
     </message>
     <message>
-        <source>These are your MineGoldCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your SuperTradeCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>These are your MineGoldCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your SuperTradeCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -200,7 +200,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Apstiprināt maciņa šifrēšanu</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MGCCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SPTDCCOINS&lt;/b&gt;!</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -220,8 +220,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Maciņš nošifrēts</translation>
     </message>
     <message>
-        <source>MineGoldCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your minegoldcoins from being stolen by malware infecting your computer.</source>
-        <translation>MineGoldCoin aizvērsies, lai pabeigtu šifrēšanu. Atcerieties, ka maciņa šifrēšana nevar pilnībā novērst dogeminsh zādzību, ko veic datorā ieviesušās kaitīgas programmas.</translation>
+        <source>SuperTradeCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your supertradecoins from being stolen by malware infecting your computer.</source>
+        <translation>SuperTradeCoin aizvērsies, lai pabeigtu šifrēšanu. Atcerieties, ka maciņa šifrēšana nevar pilnībā novērst dogeminst zādzību, ko veic datorā ieviesušās kaitīgas programmas.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -291,8 +291,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Aizvērt programmu</translation>
     </message>
     <message>
-        <source>Show information about MineGoldCoin</source>
-        <translation>Parādīt informāciju par MineGoldCoin</translation>
+        <source>Show information about SuperTradeCoin</source>
+        <translation>Parādīt informāciju par SuperTradeCoin</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -339,12 +339,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Bloku reindeksēšana no diska...</translation>
     </message>
     <message>
-        <source>Send coins to a MineGoldCoin address</source>
-        <translation>Nosūtīt dogeminshs uz MineGoldCoin adresi</translation>
+        <source>Send coins to a SuperTradeCoin address</source>
+        <translation>Nosūtīt dogeminsts uz SuperTradeCoin adresi</translation>
     </message>
     <message>
-        <source>Modify configuration options for MineGoldCoin Core</source>
-        <translation>Mainīt MineGoldCoin konfigurācijas uzstādījumus</translation>
+        <source>Modify configuration options for SuperTradeCoin Core</source>
+        <translation>Mainīt SuperTradeCoin konfigurācijas uzstādījumus</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -367,8 +367,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Pārbaudīt ziņojumu...</translation>
     </message>
     <message>
-        <source>MineGoldCoin</source>
-        <translation>MineGoldCoin</translation>
+        <source>SuperTradeCoin</source>
+        <translation>SuperTradeCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -395,12 +395,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Šifrēt privātās atslēgas kuras pieder tavam maciņam</translation>
     </message>
     <message>
-        <source>Sign messages with your MineGoldCoin addresses to prove you own them</source>
-        <translation>Parakstīt ziņojumus ar savām MineGoldCoin adresēm lai pierādītu ka tās pieder tev</translation>
+        <source>Sign messages with your SuperTradeCoin addresses to prove you own them</source>
+        <translation>Parakstīt ziņojumus ar savām SuperTradeCoin adresēm lai pierādītu ka tās pieder tev</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified MineGoldCoin addresses</source>
-        <translation>Pārbaudīt ziņojumus lai pārliecinātos, ka tie tika parakstīti ar norādītajām MineGoldCoin adresēm</translation>
+        <source>Verify messages to ensure they were signed with specified SuperTradeCoin addresses</source>
+        <translation>Pārbaudīt ziņojumus lai pārliecinātos, ka tie tika parakstīti ar norādītajām SuperTradeCoin adresēm</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -423,16 +423,16 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>MineGoldCoin Core</source>
-        <translation>MineGoldCoin Core</translation>
+        <source>SuperTradeCoin Core</source>
+        <translation>SuperTradeCoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and minegoldcoin: URIs)</source>
+        <source>Request payments (generates QR codes and supertradecoin: URIs)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>&amp;About MineGoldCoin Core</source>
-        <translation>Par &amp;MineGoldCoin Core</translation>
+        <source>&amp;About SuperTradeCoin Core</source>
+        <translation>Par &amp;SuperTradeCoin Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -443,7 +443,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Open a minegoldcoin: URI or payment request</source>
+        <source>Open a supertradecoin: URI or payment request</source>
         <translation>Atvērt bitcoin URI vai maksājuma pieprasījumu</translation>
     </message>
     <message>
@@ -451,16 +451,16 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Komandrindas iespējas</translation>
     </message>
     <message>
-        <source>Show the MineGoldCoin Core help message to get a list with possible command-line options</source>
+        <source>Show the SuperTradeCoin Core help message to get a list with possible command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>MineGoldCoin client</source>
-        <translation>MineGoldCoin klients</translation>
+        <source>SuperTradeCoin client</source>
+        <translation>SuperTradeCoin klients</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to MineGoldCoin network</source>
-        <translation><numerusform>%n aktīvu savienojumu ar MineGoldCoin tīklu</numerusform><numerusform>%n aktīvs savienojums ar MineGoldCoin tīklu</numerusform><numerusform>%n aktīvu savienojumu as MineGoldCoin tīklu</numerusform></translation>
+        <source>%n active connection(s) to SuperTradeCoin network</source>
+        <translation><numerusform>%n aktīvu savienojumu ar SuperTradeCoin tīklu</numerusform><numerusform>%n aktīvs savienojums ar SuperTradeCoin tīklu</numerusform><numerusform>%n aktīvu savienojumu as SuperTradeCoin tīklu</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -555,7 +555,7 @@ Adrese: %4
         <translation>Maciņš ir &lt;b&gt;šifrēts&lt;/b&gt; un pašlaik &lt;b&gt;slēgts&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. MineGoldCoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. SuperTradeCoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -570,7 +570,7 @@ Adrese: %4
     <name>CoinControlDialog</name>
     <message>
         <source>Coin Control Address Selection</source>
-        <translation>MineGoldCoin Kontroles Adrešu Atlase</translation>
+        <translation>SuperTradeCoin Kontroles Adrešu Atlase</translation>
     </message>
     <message>
         <source>Quantity:</source>
@@ -844,8 +844,8 @@ Adrese: %4
         <translation>Nupat ierakstītā adrese &quot;%1&quot; jau atrodas adrešu grāmatā.</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid MineGoldCoin address.</source>
-        <translation>Ierakstītā adrese &quot;%1&quot; nav derīga MineGoldCoin adrese.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid SuperTradeCoin address.</source>
+        <translation>Ierakstītā adrese &quot;%1&quot; nav derīga SuperTradeCoin adrese.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -882,12 +882,12 @@ Adrese: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>MineGoldCoin Core - Command-line options</source>
-        <translation>MineGoldCoin Core - Komandrindas iespējas</translation>
+        <source>SuperTradeCoin Core - Command-line options</source>
+        <translation>SuperTradeCoin Core - Komandrindas iespējas</translation>
     </message>
     <message>
-        <source>MineGoldCoin Core</source>
-        <translation>MineGoldCoin Core</translation>
+        <source>SuperTradeCoin Core</source>
+        <translation>SuperTradeCoin Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -933,15 +933,15 @@ Adrese: %4
         <translation>Sveiciens</translation>
     </message>
     <message>
-        <source>Welcome to MineGoldCoin Core.</source>
-        <translation>Sveicināts MineGoldCoin Core</translation>
+        <source>Welcome to SuperTradeCoin Core.</source>
+        <translation>Sveicināts SuperTradeCoin Core</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where MineGoldCoin Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where SuperTradeCoin Core will store its data.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>MineGoldCoin Core will download and store a copy of the MineGoldCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>SuperTradeCoin Core will download and store a copy of the SuperTradeCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -953,8 +953,8 @@ Adrese: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>MineGoldCoin</source>
-        <translation>MineGoldCoin</translation>
+        <source>SuperTradeCoin</source>
+        <translation>SuperTradeCoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
@@ -1015,12 +1015,12 @@ Adrese: %4
         <translation>&amp;Maksāt par transakciju</translation>
     </message>
     <message>
-        <source>Automatically start MineGoldCoin Core after logging in to the system.</source>
-        <translation>Automātiski sākt MineGoldCoin pēc pieteikšanās sistēmā.</translation>
+        <source>Automatically start SuperTradeCoin Core after logging in to the system.</source>
+        <translation>Automātiski sākt SuperTradeCoin pēc pieteikšanās sistēmā.</translation>
     </message>
     <message>
-        <source>&amp;Start MineGoldCoin Core on system login</source>
-        <translation>&amp;Sākt MineGoldCoin reizē ar sistēmu</translation>
+        <source>&amp;Start SuperTradeCoin Core on system login</source>
+        <translation>&amp;Sākt SuperTradeCoin reizē ar sistēmu</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1035,7 +1035,7 @@ Adrese: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Connect to the MineGoldCoin network through a SOCKS proxy.</source>
+        <source>Connect to the SuperTradeCoin network through a SOCKS proxy.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1087,8 +1087,8 @@ Adrese: %4
         <translation>&amp;Tērēt neapstiprinātu atlikumu</translation>
     </message>
     <message>
-        <source>Automatically open the MineGoldCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Uz rūtera automātiski atvērt MineGoldCoin klienta portu. Tas strādā tikai tad, ja rūteris atbalsta UPnP un tas ir ieslēgts.</translation>
+        <source>Automatically open the SuperTradeCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Uz rūtera automātiski atvērt SuperTradeCoin klienta portu. Tas strādā tikai tad, ja rūteris atbalsta UPnP un tas ir ieslēgts.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1143,8 +1143,8 @@ Adrese: %4
         <translation>Lietotāja interfeiss un &amp;valoda:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting MineGoldCoin Core.</source>
-        <translation>Šeit var iestatīt lietotāja valodu. Iestatījums aktivizēsies pēc MineGoldCoin pārstartēšanas.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting SuperTradeCoin Core.</source>
+        <translation>Šeit var iestatīt lietotāja valodu. Iestatījums aktivizēsies pēc SuperTradeCoin pārstartēšanas.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1152,11 +1152,11 @@ Adrese: %4
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Izvēlēties dalījuma vienību pēc noklusēšanas, ko izmantot interfeisā un nosūtot dogeminshs.</translation>
+        <translation>Izvēlēties dalījuma vienību pēc noklusēšanas, ko izmantot interfeisā un nosūtot dogeminsts.</translation>
     </message>
     <message>
-        <source>Whether to show MineGoldCoin addresses in the transaction list or not.</source>
-        <translation>Rādīt vai nē MineGoldCoin adreses transakciju sarakstā.</translation>
+        <source>Whether to show SuperTradeCoin addresses in the transaction list or not.</source>
+        <translation>Rādīt vai nē SuperTradeCoin adreses transakciju sarakstā.</translation>
     </message>
     <message>
         <source>&amp;Display addresses in transaction list</source>
@@ -1164,7 +1164,7 @@ Adrese: %4
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation>Vai rādīt MineGoldCoin kontroles funkcijas vai nē.</translation>
+        <translation>Vai rādīt SuperTradeCoin kontroles funkcijas vai nē.</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -1210,8 +1210,8 @@ Adrese: %4
         <translation>Forma</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MineGoldCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Attēlotā informācija var būt novecojusi. Jūsu maciņš pēc savienojuma izveides automātiski sinhronizējas ar MineGoldCoin tīklu, taču šis process vēl nav beidzies.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SuperTradeCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Attēlotā informācija var būt novecojusi. Jūsu maciņš pēc savienojuma izveides automātiski sinhronizējas ar SuperTradeCoin tīklu, taču šis process vēl nav beidzies.</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -1265,7 +1265,7 @@ Adrese: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid MineGoldCoin address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid SuperTradeCoin address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1277,7 +1277,7 @@ Adrese: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Cannot start minegoldcoin: click-to-pay handler</source>
+        <source>Cannot start supertradecoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1332,8 +1332,8 @@ Adrese: %4
 <context>
     <name>QObject</name>
     <message>
-        <source>MineGoldCoin</source>
-        <translation>MineGoldCoin</translation>
+        <source>SuperTradeCoin</source>
+        <translation>SuperTradeCoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
@@ -1348,12 +1348,12 @@ Adrese: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>MineGoldCoin Core did&apos;t yet exit safely...</source>
+        <source>SuperTradeCoin Core did&apos;t yet exit safely...</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Enter a MineGoldCoin address (e.g. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</source>
-        <translation>Ierakstiet MineGoldCoin adresi (piem. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</translation>
+        <source>Enter a SuperTradeCoin address (e.g. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</source>
+        <translation>Ierakstiet SuperTradeCoin adresi (piem. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</translation>
     </message>
 </context>
 <context>
@@ -1474,7 +1474,7 @@ Adrese: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Open the MineGoldCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the SuperTradeCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1482,8 +1482,8 @@ Adrese: %4
         <translation>Notīrīt konsoli</translation>
     </message>
     <message>
-        <source>Welcome to the MineGoldCoin RPC console.</source>
-        <translation>Laipni lūgti MineGoldCoin RPC konsolē.</translation>
+        <source>Welcome to the SuperTradeCoin RPC console.</source>
+        <translation>Laipni lūgti SuperTradeCoin RPC konsolē.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1545,7 +1545,7 @@ Adrese: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the MineGoldCoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the SuperTradeCoin network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1695,11 +1695,11 @@ Adrese: %4
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Sūtīt dogeminshs</translation>
+        <translation>Sūtīt dogeminsts</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation>MineGoldCoin Kontroles Funkcijas</translation>
+        <translation>SuperTradeCoin Kontroles Funkcijas</translation>
     </message>
     <message>
         <source>Inputs...</source>
@@ -1783,7 +1783,7 @@ Adrese: %4
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Apstiprināt dogeminsh sūtīšanu</translation>
+        <translation>Apstiprināt dogeminst sūtīšanu</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -1858,7 +1858,7 @@ Adrese: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Warning: Invalid MineGoldCoin address</source>
+        <source>Warning: Invalid SuperTradeCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1945,7 +1945,7 @@ Adrese: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>A message that was attached to the minegoldcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the MineGoldCoin network.</source>
+        <source>A message that was attached to the supertradecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the SuperTradeCoin network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1964,8 +1964,8 @@ Adrese: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>MineGoldCoin Core is shutting down...</source>
-        <translation>MineGoldCoin Core tiek izslēgta...</translation>
+        <source>SuperTradeCoin Core is shutting down...</source>
+        <translation>SuperTradeCoin Core tiek izslēgta...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2019,7 +2019,7 @@ Adrese: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Sign the message to prove you own this MineGoldCoin address</source>
+        <source>Sign the message to prove you own this SuperTradeCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2047,7 +2047,7 @@ Adrese: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified MineGoldCoin address</source>
+        <source>Verify the message to ensure it was signed with the specified SuperTradeCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2059,8 +2059,8 @@ Adrese: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Enter a MineGoldCoin address (e.g. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</source>
-        <translation>Ierakstiet MineGoldCoin adresi (piem. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</translation>
+        <source>Enter a SuperTradeCoin address (e.g. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</source>
+        <translation>Ierakstiet SuperTradeCoin adresi (piem. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
@@ -2118,12 +2118,12 @@ Adrese: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>MineGoldCoin Core</source>
-        <translation>MineGoldCoin Core</translation>
+        <source>SuperTradeCoin Core</source>
+        <translation>SuperTradeCoin Core</translation>
     </message>
     <message>
-        <source>The MineGoldCoin Core developers</source>
-        <translation>MineGoldCoin Core izstrādātāji</translation>
+        <source>The SuperTradeCoin Core developers</source>
+        <translation>SuperTradeCoin Core izstrādātāji</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2544,7 +2544,7 @@ Adrese: %4
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Sūtīt Dogeminshs</translation>
+        <translation>Sūtīt Dogeminsts</translation>
     </message>
 </context>
 <context>
@@ -2601,8 +2601,8 @@ Adrese: %4
         <translation>Iespējas:</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: minegoldcoin.conf)</source>
-        <translation>Norādiet konfigurācijas failu (pēc noklusēšanas: minegoldcoin.conf)</translation>
+        <source>Specify configuration file (default: supertradecoin.conf)</source>
+        <translation>Norādiet konfigurācijas failu (pēc noklusēšanas: supertradecoin.conf)</translation>
     </message>
     <message>
         <source>Specify pid file (default: bitcoind.pid)</source>
@@ -2649,7 +2649,7 @@ Adrese: %4
         <translation>Pieņemt komandrindas un JSON-RPC komandas</translation>
     </message>
     <message>
-        <source>MineGoldCoin Core RPC client version</source>
+        <source>SuperTradeCoin Core RPC client version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2674,7 +2674,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;SuperTradeCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2747,7 +2747,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admin
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. MineGoldCoin Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. SuperTradeCoin Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2759,7 +2759,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admin
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong MineGoldCoin will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong SuperTradeCoin will not work properly.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2795,8 +2795,8 @@ for example: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admin
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>MineGoldCoin Core Daemon</source>
-        <translation>MineGoldCoin Core Process</translation>
+        <source>SuperTradeCoin Core Daemon</source>
+        <translation>SuperTradeCoin Core Process</translation>
     </message>
     <message>
         <source>Block creation options:</source>
@@ -3003,7 +3003,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admin
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Usage (deprecated, use minegoldcoin-cli):</source>
+        <source>Usage (deprecated, use supertradecoin-cli):</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3039,7 +3039,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admin
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. MineGoldCoin Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. SuperTradeCoin Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3127,7 +3127,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admin
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Send command to MineGoldCoin Core</source>
+        <source>Send command to SuperTradeCoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3163,7 +3163,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admin
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Start MineGoldCoin Core Daemon</source>
+        <source>Start SuperTradeCoin Core Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3279,12 +3279,12 @@ for example: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admin
         <translation>Nevar ielādēt wallet.dat: maciņš bojāts</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of MineGoldCoin</source>
-        <translation>Nevar ielādēt wallet.dat: maciņa atvēršanai nepieciešama jaunāka MineGoldCoin versija</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of SuperTradeCoin</source>
+        <translation>Nevar ielādēt wallet.dat: maciņa atvēršanai nepieciešama jaunāka SuperTradeCoin versija</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart MineGoldCoin to complete</source>
-        <translation>Bija nepieciešams pārstartēt maciņu: pabeigšanai pārstartējiet MineGoldCoin</translation>
+        <source>Wallet needed to be rewritten: restart SuperTradeCoin to complete</source>
+        <translation>Bija nepieciešams pārstartēt maciņu: pabeigšanai pārstartējiet SuperTradeCoin</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>
@@ -3320,7 +3320,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admin
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Nepietiek dogeminsh</translation>
+        <translation>Nepietiek dogeminst</translation>
     </message>
     <message>
         <source>Loading block index...</source>

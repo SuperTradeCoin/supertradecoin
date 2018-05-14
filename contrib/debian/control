@@ -1,4 +1,4 @@
-Source: minegoldcoin
+Source: supertradecoin
 Section: utils
 Priority: optional
 Maintainer: Jonas Smedegaard <dr@jones.dk>
@@ -21,15 +21,15 @@ Build-Depends: debhelper,
  libqrencode-dev,
  libprotobuf-dev, protobuf-compiler
 Standards-Version: 3.9.2
-Homepage: http://www.minegoldcoin.com/
-Vcs-Git: git://github.com/minegoldcoin/minegoldcoin.git
-Vcs-Browser: http://github.com/minegoldcoin/minegoldcoin
+Homepage: http://www.supertradecoin.com/
+Vcs-Git: git://github.com/supertradecoin/supertradecoin.git
+Vcs-Browser: http://github.com/supertradecoin/supertradecoin
 
-Package: minegoldcoind
+Package: supertradecoind
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
- MineGoldCoin is a free open source peer-to-peer electronic cash system that
+ SuperTradeCoin is a free open source peer-to-peer electronic cash system that
  is completely decentralized, without the need for a central server or
  trusted parties.  Users hold the crypto keys to their own money and
  transact directly with each other, with the help of a P2P network to
@@ -39,14 +39,14 @@ Description: peer-to-peer network based digital currency - daemon
  requires 20+ GB of space, slowly growing.
  .
 
- This package provides the daemon, minegoldcoind, and the CLI tool
- minegoldcoin-cli to interact with the daemon.
+ This package provides the daemon, supertradecoind, and the CLI tool
+ supertradecoin-cli to interact with the daemon.
 
-Package: minegoldcoin-qt
+Package: supertradecoin-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI
- MineGoldCoin is a free open source peer-to-peer electronic cash system that
+ SuperTradeCoin is a free open source peer-to-peer electronic cash system that
  is completely decentralized, without the need for a central server or
  trusted parties.  Users hold the crypto keys to their own money and
  transact directly with each other, with the help of a P2P network to
@@ -55,4 +55,4 @@ Description: peer-to-peer network based digital currency - Qt GUI
  Full transaction history is stored locally at each client.  This
  requires 20+ GB of space, slowly growing.
  .
- This package provides MineGoldCoin-Qt, a GUI for MineGoldCoin based on Qt.
+ This package provides SuperTradeCoin-Qt, a GUI for SuperTradeCoin based on Qt.

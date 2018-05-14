@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2014 MineGoldCoin Developers
+// Copyright (c) 2013-2014 SuperTradeCoin Developers
 
 #ifndef SCRYPT_H
 #define SCRYPT_H

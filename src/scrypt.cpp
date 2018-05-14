@@ -27,7 +27,7 @@
  * online backup system.
  */
 
- // Copyright (c) 2013-2014 MineGoldCoin Developers
+ // Copyright (c) 2013-2014 SuperTradeCoin Developers
 
 #include "scrypt.h"
 #include "util.h"

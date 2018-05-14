@@ -17,7 +17,7 @@
   <string>APPL</string>
 
   <key>CFBundleGetInfoString</key>
-  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2013-@COPYRIGHT_YEAR@ MineGoldCoin Core developers, 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers</string>
+  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2013-@COPYRIGHT_YEAR@ SuperTradeCoin Core developers, 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers</string>
 
   <key>CFBundleShortVersionString</key>
   <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@</string>
@@ -29,10 +29,10 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>MineGoldCoin-Qt</string>
+  <string>SuperTradeCoin-Qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>com.minegoldcoin.wallet-qt</string>
+  <string>com.supertradecoin.wallet-qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -40,10 +40,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>com.minegoldcoin.MineGoldCoinPayment</string>
+      <string>com.supertradecoin.SuperTradeCoinPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>minegoldcoin</string>
+        <string>supertradecoin</string>
       </array>
     </dict>
   </array>
@@ -52,9 +52,9 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>com.minegoldcoin.paymentrequest</string>
+      <string>com.supertradecoin.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>MineGoldCoin payment request</string>
+      <string>SuperTradeCoin payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>
@@ -62,10 +62,10 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-minegoldcoin-payment-request</string>
+        <string>application/x-supertradecoin-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>minegoldcoinpaymentrequest</string>
+          <string>supertradecoinpaymentrequest</string>
         </array>
       </dict>
     </dict>
@@ -78,7 +78,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>com.minegoldcoin.paymentrequest</string>
+        <string>com.supertradecoin.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

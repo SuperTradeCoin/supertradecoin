@@ -58,7 +58,7 @@
     <string>Very New Address</string>
    </property>
    <property name="icon">
-    <iconset resource="../minegoldcoin.qrc">
+    <iconset resource="../supertradecoin.qrc">
      <normaloff>:/icons/add</normaloff>:/icons/add</iconset>
    </property>
   </widget>
@@ -75,7 +75,7 @@
     <string notr="true"/>
    </property>
    <property name="pixmap">
-    <pixmap resource="../minegoldcoin.qrc">:/images/paper_wallet</pixmap>
+    <pixmap resource="../supertradecoin.qrc">:/images/paper_wallet</pixmap>
    </property>
   </widget>
   <widget class="VerticalLabel" name="addressText">
@@ -150,7 +150,7 @@
     <string>So Print</string>
    </property>
    <property name="icon">
-    <iconset resource="../minegoldcoin.qrc">
+    <iconset resource="../supertradecoin.qrc">
      <normaloff>:/icons/receiving_addresses</normaloff>:/icons/receiving_addresses</iconset>
    </property>
   </widget>
@@ -316,7 +316,7 @@ p, li { white-space: pre-wrap; }
   </customwidget>
  </customwidgets>
  <resources>
-  <include location="../minegoldcoin.qrc"/>
+  <include location="../supertradecoin.qrc"/>
  </resources>
  <connections>
   <connection>

@@ -2,12 +2,12 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About MineGoldCoin Core</source>
-        <translation>Om MineGoldCoin Core</translation>
+        <source>About SuperTradeCoin Core</source>
+        <translation>Om SuperTradeCoin Core</translation>
     </message>
     <message>
-        <source>&lt;b&gt;MineGoldCoin Core&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;MineGoldCoin Core&lt;/b&gt;-version</translation>
+        <source>&lt;b&gt;SuperTradeCoin Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;SuperTradeCoin Core&lt;/b&gt;-version</translation>
     </message>
     <message>
         <source>
@@ -29,8 +29,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
         <translation>Copyright</translation>
     </message>
     <message>
-        <source>The MineGoldCoin Core developers</source>
-        <translation>MineGoldCoin Core-utvecklarna</translation>
+        <source>The SuperTradeCoin Core developers</source>
+        <translation>SuperTradeCoin Core-utvecklarna</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -104,12 +104,12 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
         <translation>Mottagaradresser</translation>
     </message>
     <message>
-        <source>These are your MineGoldCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Detta är dina MineGoldCoin adresser för att skicka betalningar. Kolla alltid summan och den mottagande adressen innan du skickar MineGoldCoins.</translation>
+        <source>These are your SuperTradeCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Detta är dina SuperTradeCoin adresser för att skicka betalningar. Kolla alltid summan och den mottagande adressen innan du skickar SuperTradeCoins.</translation>
     </message>
     <message>
-        <source>These are your MineGoldCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Detta är dina MineGoldCoin adresser för att ta emot betalningar. Det rekommenderas att använda en ny mottagningsadress för varje transaktion.</translation>
+        <source>These are your SuperTradeCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Detta är dina SuperTradeCoin adresser för att ta emot betalningar. Det rekommenderas att använda en ny mottagningsadress för varje transaktion.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -206,7 +206,7 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
         <translation>Bekräfta kryptering av plånbok</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MGCCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SPTDCCOINS&lt;/b&gt;!</source>
         <translation>VARNING: Om du krypterar din plånbok och glömmer ditt lösenord, kommer du att &lt;b&gt;FÖRLORA ALLA DINA TILLGÅNGAR&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -226,7 +226,7 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
         <translation>Plånboken är krypterad</translation>
     </message>
     <message>
-        <source>MineGoldCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your minegoldcoins from being stolen by malware infecting your computer.</source>
+        <source>SuperTradeCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your supertradecoins from being stolen by malware infecting your computer.</source>
         <translation>Programmet kommer nu att stänga ner för att färdigställa krypteringen. Tänk på att en krypterad plånbok inte skyddar mot stöld om din dator är infekterad med en keylogger.</translation>
     </message>
     <message>
@@ -297,8 +297,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
         <translation>Avsluta programmet</translation>
     </message>
     <message>
-        <source>Show information about MineGoldCoin</source>
-        <translation>Visa information om MineGoldCoin</translation>
+        <source>Show information about SuperTradeCoin</source>
+        <translation>Visa information om SuperTradeCoin</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -345,12 +345,12 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
         <translation>Återindexerar block på disken...</translation>
     </message>
     <message>
-        <source>Send coins to a MineGoldCoin address</source>
-        <translation>Skicka mynt till en MineGoldCoin-adress</translation>
+        <source>Send coins to a SuperTradeCoin address</source>
+        <translation>Skicka mynt till en SuperTradeCoin-adress</translation>
     </message>
     <message>
-        <source>Modify configuration options for MineGoldCoin Core</source>
-        <translation>Ändra konfigurationsalternativ för MineGoldCoin</translation>
+        <source>Modify configuration options for SuperTradeCoin Core</source>
+        <translation>Ändra konfigurationsalternativ för SuperTradeCoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -373,8 +373,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
         <translation>&amp;Verifiera meddelande...</translation>
     </message>
     <message>
-        <source>MineGoldCoin</source>
-        <translation>MineGoldCoin</translation>
+        <source>SuperTradeCoin</source>
+        <translation>SuperTradeCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -401,12 +401,12 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
         <translation>Kryptera de privata nycklar som tillhör din plånbok</translation>
     </message>
     <message>
-        <source>Sign messages with your MineGoldCoin addresses to prove you own them</source>
-        <translation>Signera meddelanden med din MineGoldCoinadress för att bevisa att du äger dem</translation>
+        <source>Sign messages with your SuperTradeCoin addresses to prove you own them</source>
+        <translation>Signera meddelanden med din SuperTradeCoinadress för att bevisa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified MineGoldCoin addresses</source>
-        <translation>Verifiera meddelanden för att vara säker på att de var signerade med den specificerade MineGoldCoin-adressen</translation>
+        <source>Verify messages to ensure they were signed with specified SuperTradeCoin addresses</source>
+        <translation>Verifiera meddelanden för att vara säker på att de var signerade med den specificerade SuperTradeCoin-adressen</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -429,16 +429,16 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>MineGoldCoin Core</source>
-        <translation>MineGoldCoin Kärna</translation>
+        <source>SuperTradeCoin Core</source>
+        <translation>SuperTradeCoin Kärna</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and minegoldcoin: URIs)</source>
+        <source>Request payments (generates QR codes and supertradecoin: URIs)</source>
         <translation>Begär betalning (genererar QR-koder och bitcoin-URI)</translation>
     </message>
     <message>
-        <source>&amp;About MineGoldCoin Core</source>
-        <translation>&amp;Om MineGoldCoin Core</translation>
+        <source>&amp;About SuperTradeCoin Core</source>
+        <translation>&amp;Om SuperTradeCoin Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -449,24 +449,24 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
         <translation>Visa listan av använda mottagningsadresser och etiketter</translation>
     </message>
     <message>
-        <source>Open a minegoldcoin: URI or payment request</source>
-        <translation>Öppna en minegoldcoin: URI eller betalningsbegäran</translation>
+        <source>Open a supertradecoin: URI or payment request</source>
+        <translation>Öppna en supertradecoin: URI eller betalningsbegäran</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Kommandoradsalternativ</translation>
     </message>
     <message>
-        <source>Show the MineGoldCoin Core help message to get a list with possible command-line options</source>
-        <translation>Visa MineGoldCoin Core hjälpmeddelande för att få en lista med möjliga MineGoldCoin kommandoradsalternativ.</translation>
+        <source>Show the SuperTradeCoin Core help message to get a list with possible command-line options</source>
+        <translation>Visa SuperTradeCoin Core hjälpmeddelande för att få en lista med möjliga SuperTradeCoin kommandoradsalternativ.</translation>
     </message>
     <message>
-        <source>MineGoldCoin client</source>
-        <translation>MineGoldCoin-klient</translation>
+        <source>SuperTradeCoin client</source>
+        <translation>SuperTradeCoin-klient</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to MineGoldCoin network</source>
-        <translation><numerusform>%n aktiv anslutning till MineGoldCoin-nätverket</numerusform><numerusform>%n aktiva anslutningar till MineGoldCoin-nätverket</numerusform></translation>
+        <source>%n active connection(s) to SuperTradeCoin network</source>
+        <translation><numerusform>%n aktiv anslutning till SuperTradeCoin-nätverket</numerusform><numerusform>%n aktiva anslutningar till SuperTradeCoin-nätverket</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -561,8 +561,8 @@ Adress: %4
         <translation>Denna plånbok är &lt;b&gt;krypterad&lt;/b&gt; och för närvarande &lt;b&gt;låst&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. MineGoldCoin can no longer continue safely and will quit.</source>
-        <translation>Ett allvarligt fel har uppstått. MineGoldCoin kan inte längre köras säkert och kommer att avslutas.</translation>
+        <source>A fatal error occurred. SuperTradeCoin can no longer continue safely and will quit.</source>
+        <translation>Ett allvarligt fel har uppstått. SuperTradeCoin kan inte längre köras säkert och kommer att avslutas.</translation>
     </message>
 </context>
 <context>
@@ -850,8 +850,8 @@ Adress: %4
         <translation>Den angivna adressen &quot;%1&quot; finns redan i adressboken.</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid MineGoldCoin address.</source>
-        <translation>Den angivna adressen &quot;%1&quot; är inte en giltig MineGoldCoin-adress.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid SuperTradeCoin address.</source>
+        <translation>Den angivna adressen &quot;%1&quot; är inte en giltig SuperTradeCoin-adress.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -888,12 +888,12 @@ Adress: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>MineGoldCoin Core - Command-line options</source>
-        <translation>MineGoldCoin Core - Kommandoradsalternativ</translation>
+        <source>SuperTradeCoin Core - Command-line options</source>
+        <translation>SuperTradeCoin Core - Kommandoradsalternativ</translation>
     </message>
     <message>
-        <source>MineGoldCoin Core</source>
-        <translation>MineGoldCoin Kärna</translation>
+        <source>SuperTradeCoin Core</source>
+        <translation>SuperTradeCoin Kärna</translation>
     </message>
     <message>
         <source>version</source>
@@ -939,16 +939,16 @@ Adress: %4
         <translation>Välkommen</translation>
     </message>
     <message>
-        <source>Welcome to MineGoldCoin Core.</source>
-        <translation>Välkommen till MineGoldCoin Core.</translation>
+        <source>Welcome to SuperTradeCoin Core.</source>
+        <translation>Välkommen till SuperTradeCoin Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where MineGoldCoin Core will store its data.</source>
-        <translation>Eftersom detta är första gången programmet startas får du välja var MineGoldCoin Core skall lagra sitt data.</translation>
+        <source>As this is the first time the program is launched, you can choose where SuperTradeCoin Core will store its data.</source>
+        <translation>Eftersom detta är första gången programmet startas får du välja var SuperTradeCoin Core skall lagra sitt data.</translation>
     </message>
     <message>
-        <source>MineGoldCoin Core will download and store a copy of the MineGoldCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>MineGoldCoin Core kommer att ladda ner och spara en kopia av MineGoldCoin blockkedjan. Åtminstone %1GB av data kommer att sparas i denna katalog, och den kommer att växa över tiden. Plånboken kommer också att sparas i denna katalog.</translation>
+        <source>SuperTradeCoin Core will download and store a copy of the SuperTradeCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>SuperTradeCoin Core kommer att ladda ner och spara en kopia av SuperTradeCoin blockkedjan. Åtminstone %1GB av data kommer att sparas i denna katalog, och den kommer att växa över tiden. Plånboken kommer också att sparas i denna katalog.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -959,8 +959,8 @@ Adress: %4
         <translation>Använd en anpassad datakatalog:</translation>
     </message>
     <message>
-        <source>MineGoldCoin</source>
-        <translation>MineGoldCoin</translation>
+        <source>SuperTradeCoin</source>
+        <translation>SuperTradeCoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
@@ -1021,12 +1021,12 @@ Adress: %4
         <translation>Betala överförings&amp;avgift</translation>
     </message>
     <message>
-        <source>Automatically start MineGoldCoin Core after logging in to the system.</source>
-        <translation>Starta MineGoldCoin automatiskt efter inloggning.</translation>
+        <source>Automatically start SuperTradeCoin Core after logging in to the system.</source>
+        <translation>Starta SuperTradeCoin automatiskt efter inloggning.</translation>
     </message>
     <message>
-        <source>&amp;Start MineGoldCoin Core on system login</source>
-        <translation>&amp;Starta MineGoldCoin vid systemstart</translation>
+        <source>&amp;Start SuperTradeCoin Core on system login</source>
+        <translation>&amp;Starta SuperTradeCoin vid systemstart</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1041,8 +1041,8 @@ Adress: %4
         <translation>Antalet skript &amp; verifikationstrådar</translation>
     </message>
     <message>
-        <source>Connect to the MineGoldCoin network through a SOCKS proxy.</source>
-        <translation>Anslut till MineGoldCoin-nätverket genom en SOCKS-proxy.</translation>
+        <source>Connect to the SuperTradeCoin network through a SOCKS proxy.</source>
+        <translation>Anslut till SuperTradeCoin-nätverket genom en SOCKS-proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS proxy (default proxy):</source>
@@ -1093,8 +1093,8 @@ Adress: %4
         <translation>&amp;Spendera okonfirmerad växel</translation>
     </message>
     <message>
-        <source>Automatically open the MineGoldCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Öppna automatiskt MineGoldCoin-klientens port på routern. Detta fungerar endast om din router har UPnP aktiverat.</translation>
+        <source>Automatically open the SuperTradeCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Öppna automatiskt SuperTradeCoin-klientens port på routern. Detta fungerar endast om din router har UPnP aktiverat.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1149,8 +1149,8 @@ Adress: %4
         <translation>Användargränssnittets &amp;språk: </translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting MineGoldCoin Core.</source>
-        <translation>Användargränssnittets språk kan ställas in här. Denna inställning träder i kraft efter en omstart av MineGoldCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting SuperTradeCoin Core.</source>
+        <translation>Användargränssnittets språk kan ställas in här. Denna inställning träder i kraft efter en omstart av SuperTradeCoin.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1161,8 +1161,8 @@ Adress: %4
         <translation>Välj en måttenhet att visa när du skickar mynt.</translation>
     </message>
     <message>
-        <source>Whether to show MineGoldCoin addresses in the transaction list or not.</source>
-        <translation>Anger om MineGoldCoin-adresser skall visas i transaktionslistan.</translation>
+        <source>Whether to show SuperTradeCoin addresses in the transaction list or not.</source>
+        <translation>Anger om SuperTradeCoin-adresser skall visas i transaktionslistan.</translation>
     </message>
     <message>
         <source>&amp;Display addresses in transaction list</source>
@@ -1216,8 +1216,8 @@ Adress: %4
         <translation>Formulär</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MineGoldCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med MineGoldCoin-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SuperTradeCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med SuperTradeCoin-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -1271,8 +1271,8 @@ Adress: %4
         <translation>URI hantering</translation>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid MineGoldCoin address or malformed URI parameters.</source>
-        <translation>URI går inte att tolkas! Detta kan orsakas av en ogiltig MineGoldCoin-adress eller felaktiga URI parametrar.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid SuperTradeCoin address or malformed URI parameters.</source>
+        <translation>URI går inte att tolkas! Detta kan orsakas av en ogiltig SuperTradeCoin-adress eller felaktiga URI parametrar.</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
@@ -1283,8 +1283,8 @@ Adress: %4
         <translation>Fel vid betalningsbegäran</translation>
     </message>
     <message>
-        <source>Cannot start minegoldcoin: click-to-pay handler</source>
-        <translation>Kan inte starta minegoldcoin: klicka-och-betala handhavare</translation>
+        <source>Cannot start supertradecoin: click-to-pay handler</source>
+        <translation>Kan inte starta supertradecoin: klicka-och-betala handhavare</translation>
     </message>
     <message>
         <source>Net manager warning</source>
@@ -1338,8 +1338,8 @@ Adress: %4
 <context>
     <name>QObject</name>
     <message>
-        <source>MineGoldCoin</source>
-        <translation>MineGoldCoin</translation>
+        <source>SuperTradeCoin</source>
+        <translation>SuperTradeCoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
@@ -1354,12 +1354,12 @@ Adress: %4
         <translation>Fel: Felaktig kombination av -regtest och -testnet.</translation>
     </message>
     <message>
-        <source>MineGoldCoin Core did&apos;t yet exit safely...</source>
-        <translation>MineGoldCoin Core avslutades säkert...</translation>
+        <source>SuperTradeCoin Core did&apos;t yet exit safely...</source>
+        <translation>SuperTradeCoin Core avslutades säkert...</translation>
     </message>
     <message>
-        <source>Enter a MineGoldCoin address (e.g. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</source>
-        <translation>Ange en MineGoldCoin-adress (t.ex. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</translation>
+        <source>Enter a SuperTradeCoin address (e.g. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</source>
+        <translation>Ange en SuperTradeCoin-adress (t.ex. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</translation>
     </message>
 </context>
 <context>
@@ -1480,16 +1480,16 @@ Adress: %4
         <translation>Debugloggfil</translation>
     </message>
     <message>
-        <source>Open the MineGoldCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öppna MineGoldCoin debug-loggfilen som finns i datakatalogen. Detta kan ta några sekunder för stora loggfiler.</translation>
+        <source>Open the SuperTradeCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Öppna SuperTradeCoin debug-loggfilen som finns i datakatalogen. Detta kan ta några sekunder för stora loggfiler.</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>Rensa konsollen</translation>
     </message>
     <message>
-        <source>Welcome to the MineGoldCoin RPC console.</source>
-        <translation>Välkommen till MineGoldCoin RPC-konsollen.</translation>
+        <source>Welcome to the SuperTradeCoin RPC console.</source>
+        <translation>Välkommen till SuperTradeCoin RPC-konsollen.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1551,8 +1551,8 @@ Adress: %4
         <translation>Åt&amp;eranvänd en existerande mottagningsadress (rekommenderas inte)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the MineGoldCoin network.</source>
-        <translation>Ett frivilligt meddelande att bifoga betalningsbegäran, vilket visas när begäran öppnas. NB: Meddelandet kommer inte att sändas med betalningen över MineGoldCoinnätverket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the SuperTradeCoin network.</source>
+        <translation>Ett frivilligt meddelande att bifoga betalningsbegäran, vilket visas när begäran öppnas. NB: Meddelandet kommer inte att sändas med betalningen över SuperTradeCoinnätverket.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1864,8 +1864,8 @@ Adress: %4
         <translation>Transaktionen avslogs! Detta kan hända om några av mynten i plånboken redan spenderats, t.ex om du använt en kopia av wallet.dat och mynt spenderades i kopian men inte markerats som spenderade här.</translation>
     </message>
     <message>
-        <source>Warning: Invalid MineGoldCoin address</source>
-        <translation>Varning: Felaktig MineGoldCoinadress</translation>
+        <source>Warning: Invalid SuperTradeCoin address</source>
+        <translation>Varning: Felaktig SuperTradeCoinadress</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1951,8 +1951,8 @@ Adress: %4
         <translation>Ange en etikett för denna adress att adderas till listan över använda adresser</translation>
     </message>
     <message>
-        <source>A message that was attached to the minegoldcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the MineGoldCoin network.</source>
-        <translation>Ett meddelande som bifogades bitcoin-URI, vilket lagras med transaktionen som referens. NB: Meddelandet kommer inte att sändas över MineGoldCoinnätverket.</translation>
+        <source>A message that was attached to the supertradecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the SuperTradeCoin network.</source>
+        <translation>Ett meddelande som bifogades bitcoin-URI, vilket lagras med transaktionen som referens. NB: Meddelandet kommer inte att sändas över SuperTradeCoinnätverket.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -1970,8 +1970,8 @@ Adress: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>MineGoldCoin Core is shutting down...</source>
-        <translation>MineGoldCoin Core stängs av...</translation>
+        <source>SuperTradeCoin Core is shutting down...</source>
+        <translation>SuperTradeCoin Core stängs av...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2025,7 +2025,7 @@ Adress: %4
         <translation>Kopiera signaturen till systemets Urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this MineGoldCoin address</source>
+        <source>Sign the message to prove you own this SuperTradeCoin address</source>
         <translation>Signera meddelandet för att bevisa att du äger denna adress</translation>
     </message>
     <message>
@@ -2053,8 +2053,8 @@ Adress: %4
         <translation>Adressen som meddelandet var signerat med  (t.ex. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified MineGoldCoin address</source>
-        <translation>Verifiera meddelandet för att vara säker på att den var signerad med den angivna MineGoldCoin-adressen</translation>
+        <source>Verify the message to ensure it was signed with the specified SuperTradeCoin address</source>
+        <translation>Verifiera meddelandet för att vara säker på att den var signerad med den angivna SuperTradeCoin-adressen</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2065,8 +2065,8 @@ Adress: %4
         <translation>Rensa alla fält</translation>
     </message>
     <message>
-        <source>Enter a MineGoldCoin address (e.g. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</source>
-        <translation>Ange en MineGoldCoin-adress (t.ex. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</translation>
+        <source>Enter a SuperTradeCoin address (e.g. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</source>
+        <translation>Ange en SuperTradeCoin-adress (t.ex. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
@@ -2124,12 +2124,12 @@ Adress: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>MineGoldCoin Core</source>
-        <translation>MineGoldCoin Kärna</translation>
+        <source>SuperTradeCoin Core</source>
+        <translation>SuperTradeCoin Kärna</translation>
     </message>
     <message>
-        <source>The MineGoldCoin Core developers</source>
-        <translation>MineGoldCoin Core-utvecklarna</translation>
+        <source>The SuperTradeCoin Core developers</source>
+        <translation>SuperTradeCoin Core-utvecklarna</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2607,8 +2607,8 @@ Adress: %4
         <translation>Inställningar:</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: minegoldcoin.conf)</source>
-        <translation>Ange konfigurationsfil (förvalt: minegoldcoin.conf)</translation>
+        <source>Specify configuration file (default: supertradecoin.conf)</source>
+        <translation>Ange konfigurationsfil (förvalt: supertradecoin.conf)</translation>
     </message>
     <message>
         <source>Specify pid file (default: bitcoind.pid)</source>
@@ -2655,8 +2655,8 @@ Adress: %4
         <translation>Tillåt kommandon från kommandotolken och JSON-RPC-kommandon</translation>
     </message>
     <message>
-        <source>MineGoldCoin Core RPC client version</source>
-        <translation>MineGoldCoin Core RPC-klient version</translation>
+        <source>SuperTradeCoin Core RPC client version</source>
+        <translation>SuperTradeCoin Core RPC-klient version</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
@@ -2680,7 +2680,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;SuperTradeCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, du behöver sätta ett rpclösensord i konfigurationsfilen:
 %s
@@ -2691,7 +2691,7 @@ rpcpassword=%s
 Användarnamnet och lösenordet FÅR INTE bara detsamma.
 Om filen inte existerar, skapa den med enbart ägarläsbara filrättigheter.
 Det är också rekommenderat att sätta alertnotify så du meddelas om problem;
-till exempel: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admin@foo.com
+till exempel: alertnotify=echo %%s | mail -s &quot;SuperTradeCoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2728,7 +2728,7 @@ till exempel: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admi
     </message>
     <message>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation>Fel: Denna transaktion kräver en transaktionsavgift på minst %s på grund av dess storlek, komplexitet, eller användning av senast mottagna minegoldcoins!</translation>
+        <translation>Fel: Denna transaktion kräver en transaktionsavgift på minst %s på grund av dess storlek, komplexitet, eller användning av senast mottagna supertradecoins!</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
@@ -2763,8 +2763,8 @@ till exempel: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admi
         <translation>Detta är ett förhands testbygge - använd på egen risk - använd inte för mining eller handels applikationer</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. MineGoldCoin Core is probably already running.</source>
-        <translation>Det går inte att binda till %s på den här datorn. MineGoldCoin Core är förmodligen redan igång.</translation>
+        <source>Unable to bind to %s on this computer. SuperTradeCoin Core is probably already running.</source>
+        <translation>Det går inte att binda till %s på den här datorn. SuperTradeCoin Core är förmodligen redan igång.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)</source>
@@ -2775,8 +2775,8 @@ till exempel: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admi
         <translation>Varning: -paytxfee är satt väldigt hög! Detta är avgiften du kommer betala för varje transaktion.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong MineGoldCoin will not work properly.</source>
-        <translation>Varning: Vänligen kolla så att din dators datum och tid är korrekt! Om din klocka går fel kommer MineGoldCoin inte fungera korrekt.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong SuperTradeCoin will not work properly.</source>
+        <translation>Varning: Vänligen kolla så att din dators datum och tid är korrekt! Om din klocka går fel kommer SuperTradeCoin inte fungera korrekt.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -2811,8 +2811,8 @@ till exempel: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admi
         <translation>Försök att rädda de privata nycklarna från en korrupt wallet.dat</translation>
     </message>
     <message>
-        <source>MineGoldCoin Core Daemon</source>
-        <translation>MineGoldCoin Core tjänsten</translation>
+        <source>SuperTradeCoin Core Daemon</source>
+        <translation>SuperTradeCoin Core tjänsten</translation>
     </message>
     <message>
         <source>Block creation options:</source>
@@ -3019,8 +3019,8 @@ till exempel: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admi
         <translation>Detta är avsett för regressionstestningsverktyg och applikationsutveckling.</translation>
     </message>
     <message>
-        <source>Usage (deprecated, use minegoldcoin-cli):</source>
-        <translation>Användning (föråldrat, använd minegoldcoin-cli):</translation>
+        <source>Usage (deprecated, use supertradecoin-cli):</source>
+        <translation>Användning (föråldrat, använd supertradecoin-cli):</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -3055,8 +3055,8 @@ till exempel: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admi
         <translation>Importerar block från extern blk000??.dat fil</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. MineGoldCoin Core is probably already running.</source>
-        <translation>Kan inte låsa data-mappen %s. MineGoldCoin Core körs förmodligen redan.</translation>
+        <source>Cannot obtain a lock on data directory %s. SuperTradeCoin Core is probably already running.</source>
+        <translation>Kan inte låsa data-mappen %s. SuperTradeCoin Core körs förmodligen redan.</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
@@ -3140,11 +3140,11 @@ till exempel: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admi
     </message>
     <message>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>SSL-inställningar: (se MineGoldCoin-wikin för SSL-setup instruktioner)</translation>
+        <translation>SSL-inställningar: (se SuperTradeCoin-wikin för SSL-setup instruktioner)</translation>
     </message>
     <message>
-        <source>Send command to MineGoldCoin Core</source>
-        <translation>Sänd kommando till MineGoldCoin Core</translation>
+        <source>Send command to SuperTradeCoin Core</source>
+        <translation>Sänd kommando till SuperTradeCoin Core</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -3179,8 +3179,8 @@ till exempel: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admi
         <translation>Ange timeout för uppkoppling i millisekunder (förvalt: 5000)</translation>
     </message>
     <message>
-        <source>Start MineGoldCoin Core Daemon</source>
-        <translation>Starta MineGoldCoin Core tjänsten</translation>
+        <source>Start SuperTradeCoin Core Daemon</source>
+        <translation>Starta SuperTradeCoin Core tjänsten</translation>
     </message>
     <message>
         <source>System error: </source>
@@ -3295,12 +3295,12 @@ till exempel: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admi
         <translation>Fel vid inläsningen av wallet.dat: Plånboken är skadad</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of MineGoldCoin</source>
-        <translation>Fel vid inläsningen av wallet.dat: Plånboken kräver en senare version av MineGoldCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of SuperTradeCoin</source>
+        <translation>Fel vid inläsningen av wallet.dat: Plånboken kräver en senare version av SuperTradeCoin</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart MineGoldCoin to complete</source>
-        <translation>Plånboken behöver skrivas om: Starta om MineGoldCoin för att färdigställa</translation>
+        <source>Wallet needed to be rewritten: restart SuperTradeCoin to complete</source>
+        <translation>Plånboken behöver skrivas om: Starta om SuperTradeCoin för att färdigställa</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>
@@ -3336,7 +3336,7 @@ till exempel: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admi
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Otillräckligt med minegoldcoins</translation>
+        <translation>Otillräckligt med supertradecoins</translation>
     </message>
     <message>
         <source>Loading block index...</source>

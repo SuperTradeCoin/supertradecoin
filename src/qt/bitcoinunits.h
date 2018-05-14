@@ -24,11 +24,11 @@ public:
      */
     enum Unit   //Note: preserve positions in order to preserve existing settings
     {
-        MGC,
-        //formerly mMGC
-        //formerly uMGC
-        MMGC = 3,
-        kMGC = 4,
+        SPTDC,
+        //formerly mSPTDC
+        //formerly uSPTDC
+        MSPTDC = 3,
+        kSPTDC = 4,
         Minsh = 5
     };
 

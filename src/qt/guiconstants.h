@@ -41,9 +41,9 @@ static const int MAX_PAYMENT_REQUEST_SIZE = 50000; // bytes
 /* Number of frames in spinner animation */
 #define SPINNER_FRAMES 35
 
-#define QAPP_ORG_NAME "MineGoldCoin"
-#define QAPP_ORG_DOMAIN "minegoldcoin.com"
-#define QAPP_APP_NAME_DEFAULT "MineGoldCoin-Qt"
-#define QAPP_APP_NAME_TESTNET "MineGoldCoin-Qt-testnet"
+#define QAPP_ORG_NAME "SuperTradeCoin"
+#define QAPP_ORG_DOMAIN "supertradecoin.com"
+#define QAPP_APP_NAME_DEFAULT "SuperTradeCoin-Qt"
+#define QAPP_APP_NAME_TESTNET "SuperTradeCoin-Qt-testnet"
 
 #endif // GUICONSTANTS_H

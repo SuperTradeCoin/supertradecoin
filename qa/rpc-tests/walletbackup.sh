@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Copyright (c) 2014 The Bitcoin Core developers
-# Copyright (c) 2014 The MineGoldCoin Core developers
+# Copyright (c) 2014 The SuperTradeCoin Core developers
 # Distributed under the MIT/X11 software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -36,8 +36,8 @@ if [ $# -lt 1 ]; then
         exit 1
 fi
 
-BITCOIND=${1}/minegoldcoind
-CLI=${1}/minegoldcoin-cli
+BITCOIND=${1}/supertradecoind
+CLI=${1}/supertradecoin-cli
 
 DIR="${BASH_SOURCE%/*}"
 SENDANDWAIT="${DIR}/send.sh"
@@ -61,7 +61,7 @@ B4PID=$!
 function CreateConfDir {
   DIR=$1
   mkdir -p $DIR
-  CONF=$DIR/minegoldcoin.conf
+  CONF=$DIR/supertradecoin.conf
   echo "regtest=1" >> $CONF
   echo "rpcuser=rt" >> $CONF
   echo "rpcpassword=rt" >> $CONF
@@ -125,7 +125,7 @@ function WaitMemPools {
 
 echo "Generating initial blockchain..."
 
-# 1 block, 500000 XDG each == 500000 MGC
+# 1 block, 500000 XDG each == 500000 SPTDC
 $CLI $B1ARGS setgenerate true 1
 WaitBlocks
 $CLI $B2ARGS setgenerate true 1

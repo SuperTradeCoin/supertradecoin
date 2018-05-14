@@ -2,7 +2,7 @@ Wallet Tools
 ---------------------
 
 ### [BitRPC](/contrib/bitrpc) ###
-Allows for sending of all standard MineGoldCoin commands via RPC rather than as command line args.
+Allows for sending of all standard SuperTradeCoin commands via RPC rather than as command line args.
 
 ### [SpendFrom](/contrib/spendfrom) ###
 
@@ -21,7 +21,7 @@ Construct a linear, no-fork, best version of the blockchain.
 
 ### [Qos](/contrib/qos) ###
 
-A Linux bash script that will set up tc to limit the outgoing bandwidth for connections to the MineGoldCoin network. This means one can have an always-on bitcoind instance running, and another local minegoldcoind/minegoldcoin-qt instance which connects to this node and receives blocks from it.
+A Linux bash script that will set up tc to limit the outgoing bandwidth for connections to the SuperTradeCoin network. This means one can have an always-on bitcoind instance running, and another local supertradecoind/supertradecoin-qt instance which connects to this node and receives blocks from it.
 
 ### [Seeds](/contrib/seeds) ###
 Utility to generate the pnSeed[] array that is compiled into the client.
@@ -30,8 +30,8 @@ Build Tools and Keys
 ---------------------
 
 ### [Debian](/contrib/debian) ###
-Contains files used to package minegoldcoind/minegoldcoin-qt
-for Debian-based Linux systems. If you compile minegoldcoind/minegoldcoin-qt yourself, there are some useful files here.
+Contains files used to package supertradecoind/supertradecoin-qt
+for Debian-based Linux systems. If you compile supertradecoind/supertradecoin-qt yourself, there are some useful files here.
 
 ### [Gitian-descriptors](/contrib/gitian-descriptors) ###
 Gavin's notes on getting gitian builds up and running using KVM.

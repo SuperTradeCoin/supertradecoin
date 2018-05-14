@@ -15,11 +15,11 @@ endif
 bin_PROGRAMS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += minegoldcoind
+  bin_PROGRAMS += supertradecoind
 endif
 
 if BUILD_BITCOIN_CLI
-  bin_PROGRAMS += minegoldcoin-cli
+  bin_PROGRAMS += supertradecoin-cli
 endif
 
 SUBDIRS = . $(BUILD_QT) $(BUILD_TEST)
@@ -157,36 +157,36 @@ libbitcoin_cli_a_SOURCES = \
 nodist_libbitcoin_common_a_SOURCES = $(top_srcdir)/src/obj/build.h
 #
 
-# minegoldcoind binary #
-minegoldcoind_LDADD = \
+# supertradecoind binary #
+supertradecoind_LDADD = \
   libbitcoin_server.a \
   libbitcoin_cli.a \
   libbitcoin_common.a \
   $(LIBLEVELDB) \
   $(LIBMEMENV)
 if ENABLE_WALLET
-minegoldcoind_LDADD += libbitcoin_wallet.a libbitcoin_server_wallet.a
+supertradecoind_LDADD += libbitcoin_wallet.a libbitcoin_server_wallet.a
 endif
-minegoldcoind_SOURCES = minegoldcoind.cpp
+supertradecoind_SOURCES = supertradecoind.cpp
 #
 
 if TARGET_WINDOWS
-minegoldcoind_SOURCES += minegoldcoind-res.rc
+supertradecoind_SOURCES += supertradecoind-res.rc
 endif
 
 AM_CPPFLAGS += $(BDB_CPPFLAGS)
-minegoldcoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS)
+supertradecoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS)
 
-# minegoldcoin-cli binary #
-minegoldcoin_cli_LDADD = \
+# supertradecoin-cli binary #
+supertradecoin_cli_LDADD = \
   libbitcoin_cli.a \
   libbitcoin_common.a \
   $(BOOST_LIBS)
-minegoldcoin_cli_SOURCES = minegoldcoin-cli.cpp
+supertradecoin_cli_SOURCES = supertradecoin-cli.cpp
 #
 
 if TARGET_WINDOWS
-minegoldcoin_cli_SOURCES += minegoldcoin-cli-res.rc
+supertradecoin_cli_SOURCES += supertradecoin-cli-res.rc
 endif
 
 # NOTE: This dependency is not strictly necessary, but without it make may try to build both in parallel, which breaks the LevelDB build system in a race

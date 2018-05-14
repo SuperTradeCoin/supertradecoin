@@ -16,9 +16,9 @@ BitcoinUnits::BitcoinUnits(QObject *parent):
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(MMGC);
-    unitlist.append(kMGC);
-    unitlist.append(MGC);
+    unitlist.append(MSPTDC);
+    unitlist.append(kSPTDC);
+    unitlist.append(SPTDC);
     unitlist.append(Minsh);
     return unitlist;
 }
@@ -27,9 +27,9 @@ bool BitcoinUnits::valid(int unit)
 {
     switch(unit)
     {
-    case MMGC:
-    case kMGC:
-    case MGC:
+    case MSPTDC:
+    case kSPTDC:
+    case SPTDC:
     case Minsh:
         return true;
     default:
@@ -41,9 +41,9 @@ QString BitcoinUnits::name(int unit)
 {
     switch(unit)
     {
-    case MMGC: return QString("MMGC");
-    case kMGC: return QString("kMGC");
-    case MGC: return QString("MGC");
+    case MSPTDC: return QString("MSPTDC");
+    case kSPTDC: return QString("kSPTDC");
+    case SPTDC: return QString("SPTDC");
     case Minsh: return QString("Minsh");
     default: return QString("???");
     }
@@ -53,9 +53,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case MMGC: return QString("Mega-MineGoldCoin (1,000,000 MGC)");
-    case kMGC: return QString("Kilo-MineGoldCoin (1000 MGC)");
-    case MGC: return QString("MineGoldCoin");
+    case MSPTDC: return QString("Mega-SuperTradeCoin (1,000,000 SPTDC)");
+    case kSPTDC: return QString("Kilo-SuperTradeCoin (1000 SPTDC)");
+    case SPTDC: return QString("SuperTradeCoin");
     case Minsh: return QString("Minsh (1 / 100,000,000");
     default: return QString("???");
     }
@@ -65,9 +65,9 @@ qint64 BitcoinUnits::factor(int unit)
 {
     switch(unit)
     {
-    case MMGC: return Q_INT64_C(100000000000000);
-    case kMGC: return Q_INT64_C(100000000000);
-    case MGC:  return Q_INT64_C(100000000);
+    case MSPTDC: return Q_INT64_C(100000000000000);
+    case kSPTDC: return Q_INT64_C(100000000000);
+    case SPTDC:  return Q_INT64_C(100000000);
     case Minsh: return Q_INT64_C(1);
     default:    return Q_INT64_C(100000000);
     }
@@ -77,9 +77,9 @@ qint64 BitcoinUnits::maxAmount(int unit)
 {
     switch(unit)
     {
-    case MMGC: return Q_INT64_C(900000);
-    case kMGC: return Q_INT64_C(900000000);
-    case MGC:  return Q_INT64_C(900000000000);    //less than the coin supply until the year 2170
+    case MSPTDC: return Q_INT64_C(900000);
+    case kSPTDC: return Q_INT64_C(900000000);
+    case SPTDC:  return Q_INT64_C(900000000000);    //less than the coin supply until the year 2170
     case Minsh: return Q_INT64_C(9000000000000000000); // Slightly under max value for int64
     default:   return 0;
     }
@@ -89,9 +89,9 @@ int BitcoinUnits::amountDigits(int unit)
 {
     switch(unit)
     {
-    case MMGC: return 6;  // 900,000 (# digits, without commas)
-    case kMGC: return 9;  // 900,000,000
-    case MGC:  return 12; // 900,000,000,000
+    case MSPTDC: return 6;  // 900,000 (# digits, without commas)
+    case kSPTDC: return 9;  // 900,000,000
+    case SPTDC:  return 12; // 900,000,000,000
     case Minsh: return 19; // 9,000,000,000,000,000,000
     default: return 0;
     }
@@ -101,9 +101,9 @@ int BitcoinUnits::decimals(int unit)
 {
     switch(unit)
     {
-    case MMGC: return 14;
-    case kMGC: return 11;
-    case MGC: return 8;
+    case MSPTDC: return 14;
+    case kSPTDC: return 11;
+    case SPTDC: return 8;
     case Minsh: return 0;
     default: return 0;
     }

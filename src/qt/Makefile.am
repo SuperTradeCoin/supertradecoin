@@ -5,12 +5,12 @@ AM_CPPFLAGS += -I$(top_srcdir)/src \
   -I$(top_builddir)/src/qt/forms \
   $(PROTOBUF_CFLAGS) \
   $(QR_CFLAGS)
-bin_PROGRAMS = minegoldcoin-qt
+bin_PROGRAMS = supertradecoin-qt
 noinst_LIBRARIES = libbitcoinqt.a
 SUBDIRS = . $(BUILD_TEST_QT)
 DIST_SUBDIRS = . test
 
-# minegoldcoin qt core #
+# supertradecoin qt core #
 QT_TS = \
   locale/bitcoin_ach.ts \
   locale/bitcoin_af_ZA.ts \
@@ -150,7 +150,7 @@ QT_MOC_CPP = \
   moc_walletmodel.cpp \
   moc_walletview.cpp
 
-MGCCOIN_MM = \
+SPTDCCOIN_MM = \
   macdockiconhandler.mm \
   macnotificationhandler.mm
 
@@ -160,8 +160,8 @@ QT_MOC = \
   overviewpage.moc \
   rpcconsole.moc
 
-QT_QRC_CPP = qrc_minegoldcoin.cpp
-QT_QRC = minegoldcoin.qrc
+QT_QRC_CPP = qrc_supertradecoin.cpp
+QT_QRC = supertradecoin.qrc
 
 PROTOBUF_CC = paymentrequest.pb.cc
 PROTOBUF_H = paymentrequest.pb.h
@@ -335,7 +335,7 @@ RES_IMAGES = \
 
 RES_MOVIES = $(wildcard res/movies/spinner-*.png)
 
-MGCCOIN_RC = res/minegoldcoin-qt-res.rc
+SPTDCCOIN_RC = res/supertradecoin-qt-res.rc
 
 libbitcoinqt_a_CPPFLAGS = $(AM_CPPFLAGS) $(QT_INCLUDES) \
   -I$(top_srcdir)/src/qt/forms $(QT_DBUS_INCLUDES)
@@ -352,23 +352,23 @@ BUILT_SOURCES = $(nodist_libbitcoinqt_a_SOURCES)
 $(QT_MOC): $(PROTOBUF_H)
 $(QT_MOC_CPP): $(PROTOBUF_H)
 
-# minegoldcoin-qt binary #
-minegoldcoin_qt_CPPFLAGS = $(AM_CPPFLAGS) $(QT_INCLUDES) \
+# supertradecoin-qt binary #
+supertradecoin_qt_CPPFLAGS = $(AM_CPPFLAGS) $(QT_INCLUDES) \
   -I$(top_srcdir)/src/qt/forms
-minegoldcoin_qt_SOURCES = bitcoin.cpp
+supertradecoin_qt_SOURCES = bitcoin.cpp
 if TARGET_DARWIN
-  minegoldcoin_qt_SOURCES += $(MGCCOIN_MM)
+  supertradecoin_qt_SOURCES += $(SPTDCCOIN_MM)
 endif
 if TARGET_WINDOWS
-  minegoldcoin_qt_SOURCES += $(MGCCOIN_RC)
+  supertradecoin_qt_SOURCES += $(SPTDCCOIN_RC)
 endif
-minegoldcoin_qt_LDADD = libbitcoinqt.a $(LIBBITCOIN_SERVER)
+supertradecoin_qt_LDADD = libbitcoinqt.a $(LIBBITCOIN_SERVER)
 if ENABLE_WALLET
-minegoldcoin_qt_LDADD += $(LIBBITCOIN_WALLET) $(LIBBITCOIN_SERVER_WALLET)
+supertradecoin_qt_LDADD += $(LIBBITCOIN_WALLET) $(LIBBITCOIN_SERVER_WALLET)
 endif
-minegoldcoin_qt_LDADD += $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBLEVELDB) $(LIBMEMENV) \
+supertradecoin_qt_LDADD += $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBLEVELDB) $(LIBMEMENV) \
   $(BOOST_LIBS) $(QT_LIBS) $(QT_DBUS_LIBS) $(QR_LIBS) $(PROTOBUF_LIBS) $(BDB_LIBS)
-minegoldcoin_qt_LDFLAGS = $(QT_LDFLAGS)
+supertradecoin_qt_LDFLAGS = $(QT_LDFLAGS)
 
 # forms/foo.h -> forms/ui_foo.h
 QT_FORMS_H=$(join $(dir $(QT_FORMS_UI)),$(addprefix ui_, $(notdir $(QT_FORMS_UI:.ui=.h))))
@@ -382,7 +382,7 @@ QT_QM=$(QT_TS:.ts=.qm)
 bitcoinstrings.cpp: FORCE
 	$(MAKE) -C $(top_srcdir)/src qt/bitcoinstrings.cpp
 
-translate: bitcoinstrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_CPP) $(BITCOIN_QT_H) $(MGCCOIN_MM)
+translate: bitcoinstrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_CPP) $(BITCOIN_QT_H) $(SPTDCCOIN_MM)
 	@test -n $(LUPDATE) || echo "lupdate is required for updating translations"
 	@QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts locale/bitcoin_en.ts
 

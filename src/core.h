@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2013 The Bitcoin developers
 // Copyright (c) 2011-2013 The Litecoin developers
-// Copyright (c) 2013-2014 The MineGoldCoin developers
+// Copyright (c) 2013-2014 The SuperTradeCoin developers
 // Copyright (c)      2014 The Inutoshi developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -35,13 +35,13 @@ static const int BLOCK_VERSION_CHAIN_START = (1 << 16);
 static const int BLOCK_VERSION_CHAIN_END = (1 << 30);
 static const int BLOCK_VERSION_BASE_MASK = 0x000000ff;
 
-// MineGoldCoin aux chain ID = 0x0062 (98)
+// SuperTradeCoin aux chain ID = 0x0062 (98)
 static const int AUXPOW_CHAIN_ID = 0x0062;
 static const int AUXPOW_START_MAINNET = 371337;
 static const int AUXPOW_START_TESTNET = 158100;
 
 /** No amount larger than this (in satoshi) is valid */
-static const int64_t MAX_MONEY = 10000000000 * COIN; // MineGoldCoin: maximum of 100B coins (given some randomness), max transaction 10,000,000,000
+static const int64_t MAX_MONEY = 10000000000 * COIN; // SuperTradeCoin: maximum of 100B coins (given some randomness), max transaction 10,000,000,000
 inline bool MoneyRange(int64_t nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
 
 /** An outpoint - a combination of a transaction hash and an index n into its vout */
@@ -176,7 +176,7 @@ public:
 
     bool IsDust(int64_t nMinRelayTxFee) const
     {
-        // MineGoldCoin: IsDust() detection disabled, allows any valid dust to be relayed.
+        // SuperTradeCoin: IsDust() detection disabled, allows any valid dust to be relayed.
         // The fees imposed on each dust txo is considered sufficient spam deterrant.
 		return false;
     }

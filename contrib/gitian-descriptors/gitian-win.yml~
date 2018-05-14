@@ -1,5 +1,5 @@
 ---
-name: "minegoldcoin"
+name: "supertradecoin"
 suites:
 - "precise"
 architectures:
@@ -20,14 +20,14 @@ packages:
 reference_datetime: "2013-06-01 00:00:00"
 remotes:
 - "url": "git@localhost:project"
-  "dir": "minegoldcoin"
+  "dir": "supertradecoin"
 files:
 - "qt-win32-5.2.0-gitian-r3.zip"
 - "qt-win64-5.2.0-gitian-r3.zip"
 - "boost-win32-1.55.0-gitian-r6.zip"
 - "boost-win64-1.55.0-gitian-r6.zip"
-- "minegoldcoin-deps-win32-gitian-r17.zip"
-- "minegoldcoin-deps-win64-gitian-r17.zip"
+- "supertradecoin-deps-win32-gitian-r17.zip"
+- "supertradecoin-deps-win64-gitian-r17.zip"
 - "protobuf-win32-2.5.0-gitian-r4.zip"
 - "protobuf-win64-2.5.0-gitian-r4.zip"
 script: |
@@ -61,11 +61,11 @@ script: |
     cd $STAGING
     unzip -o $INDIR/qt-win${BITS}-5.2.0-gitian-r3.zip
     unzip -o $INDIR/boost-win${BITS}-1.55.0-gitian-r6.zip
-    unzip -o $INDIR/minegoldcoin-deps-win${BITS}-gitian-r17.zip
+    unzip -o $INDIR/supertradecoin-deps-win${BITS}-gitian-r17.zip
     unzip -o $INDIR/protobuf-win${BITS}-2.5.0-gitian-r4.zip
     if [ "$NEEDDIST" == "1" ]; then
       # Make source code archive which is architecture independent so it only needs to be done once
-      cd $HOME/build/minegoldcoin
+      cd $HOME/build/supertradecoin
        chmod +x autogen.sh
        cd src/leveldb
        chmod +x build_detect_platform
@@ -74,23 +74,23 @@ script: |
        chmod +x genbuild.sh
        cd ..
       ./autogen.sh
-      ./configure --bindir=$OUTDIR --prefix=$STAGING --host=$HOST --with-qt-plugindir=$STAGING/plugins  --with-qt-incdir=$STAGING/include --with-qt-bindir=$STAGING/host/bin --with-boost=$STAGING --disable-maintainer-mode --with-protoc-bindir=$STAGING/host/bin --disable-dependency-tracking CPPFLAGS="-I$STAGING/include ${OPTFLAGS}" LDFLAGS="-L$STAGING/lib ${OPTFLAGS}" CXXFLAGS="-frandom-seed=minegoldcoin ${OPTFLAGS}"
+      ./configure --bindir=$OUTDIR --prefix=$STAGING --host=$HOST --with-qt-plugindir=$STAGING/plugins  --with-qt-incdir=$STAGING/include --with-qt-bindir=$STAGING/host/bin --with-boost=$STAGING --disable-maintainer-mode --with-protoc-bindir=$STAGING/host/bin --disable-dependency-tracking CPPFLAGS="-I$STAGING/include ${OPTFLAGS}" LDFLAGS="-L$STAGING/lib ${OPTFLAGS}" CXXFLAGS="-frandom-seed=supertradecoin ${OPTFLAGS}"
       make dist
-      DISTNAME=`echo minegoldcoin-*.tar.gz`
+      DISTNAME=`echo supertradecoin-*.tar.gz`
       NEEDDIST=0
     fi
     # Build platform-dependent executables from source archive
     cd $BUILDDIR
     mkdir -p distsrc
     cd distsrc
-    tar --strip-components=1 -xf $HOME/build/minegoldcoin/$DISTNAME
-    ./configure --enable-upnp-default --bindir=$BINDIR --prefix=$STAGING --host=$HOST --with-qt-plugindir=$STAGING/plugins  --with-qt-incdir=$STAGING/include --with-qt-bindir=$STAGING/host/bin --with-boost=$STAGING --disable-maintainer-mode --with-protoc-bindir=$STAGING/host/bin --disable-dependency-tracking CPPFLAGS="-I$STAGING/include ${OPTFLAGS}" LDFLAGS="-L$STAGING/lib ${OPTFLAGS}" CXXFLAGS="-frandom-seed=minegoldcoin ${OPTFLAGS}"
+    tar --strip-components=1 -xf $HOME/build/supertradecoin/$DISTNAME
+    ./configure --enable-upnp-default --bindir=$BINDIR --prefix=$STAGING --host=$HOST --with-qt-plugindir=$STAGING/plugins  --with-qt-incdir=$STAGING/include --with-qt-bindir=$STAGING/host/bin --with-boost=$STAGING --disable-maintainer-mode --with-protoc-bindir=$STAGING/host/bin --disable-dependency-tracking CPPFLAGS="-I$STAGING/include ${OPTFLAGS}" LDFLAGS="-L$STAGING/lib ${OPTFLAGS}" CXXFLAGS="-frandom-seed=supertradecoin ${OPTFLAGS}"
     export LD_PRELOAD=/usr/lib/faketime/libfaketime.so.1
     export FAKETIME=$REFERENCE_DATETIME
     make $MAKEOPTS
     make deploy
     make install-strip
-    cp -f minegoldcoin-*setup*.exe $BINDIR/
+    cp -f supertradecoin-*setup*.exe $BINDIR/
     unset LD_PRELOAD
     unset FAKETIME
   done # for BITS in
@@ -100,5 +100,5 @@ script: |
   rm -rf $TEMPDIR
   mkdir -p $TEMPDIR
   cd $TEMPDIR
-  tar -xvf $HOME/build/minegoldcoin/$DISTNAME | sort | tar --no-recursion -cT /dev/stdin --mode='u+rw,go+r-w,a+X' --owner=0 --group=0 --mtime="$REFERENCE_DATETIME" | gzip -n > $OUTDIR/src/$DISTNAME
+  tar -xvf $HOME/build/supertradecoin/$DISTNAME | sort | tar --no-recursion -cT /dev/stdin --mode='u+rw,go+r-w,a+X' --owner=0 --group=0 --mtime="$REFERENCE_DATETIME" | gzip -n > $OUTDIR/src/$DISTNAME
 

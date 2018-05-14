@@ -1,11 +1,11 @@
 --- 
-name: minegoldcoin
+name: supertradecoin
 urls:
-- http://example.org/minegoldcoin-latest-win32-gitian.zip
+- http://example.org/supertradecoin-latest-win32-gitian.zip
 rss:
-- url: http://sourceforge.net/projects/minegoldcoin/rss
+- url: http://sourceforge.net/projects/supertradecoin/rss
   xpath: //item/link/text()
-  pattern: minegoldcoin-\d+.\d+.\d+-win32-gitian.zip
+  pattern: supertradecoin-\d+.\d+.\d+-win32-gitian.zip
 signers:
   90DC2AC256201AD9377E15049142E5F7E533CE3B:
     weight: 40

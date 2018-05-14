@@ -5,12 +5,12 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About MineGoldCoin Core</source>
+        <source>About SuperTradeCoin Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;MineGoldCoin Core&lt;/b&gt; version</source>
+        <source>&lt;b&gt;SuperTradeCoin Core&lt;/b&gt; version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -35,7 +35,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The MineGoldCoin Core developers</source>
+        <source>The SuperTradeCoin Core developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -129,12 +129,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your MineGoldCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your MineGoldCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <source>These are your SuperTradeCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>These are your SuperTradeCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your MineGoldCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your SuperTradeCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -255,8 +255,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MGCCOINS&lt;/b&gt;!</source>
-        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MGCCOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SPTDCCOINS&lt;/b&gt;!</source>
+        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SPTDCCOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -282,8 +282,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>MineGoldCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MineGoldCoins from being stolen by malware infecting your computer.</source>
-        <translation>MineGoldCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MineGoldCoins from being stolen by malware infecting your computer.</translation>
+        <source>SuperTradeCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SuperTradeCoins from being stolen by malware infecting your computer.</source>
+        <translation>SuperTradeCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SuperTradeCoins from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -376,8 +376,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Show information about MineGoldCoin</source>
-        <translation>Show information about MineGoldCoin</translation>
+        <source>Show information about SuperTradeCoin</source>
+        <translation>Show information about SuperTradeCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -437,13 +437,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-405"/>
-        <source>Send coins to a MineGoldCoin address</source>
-        <translation>Send coins to a MineGoldCoin address</translation>
+        <source>Send coins to a SuperTradeCoin address</source>
+        <translation>Send coins to a SuperTradeCoin address</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for MineGoldCoin Core</source>
-        <translation>Modify configuration options for MineGoldCoin Core</translation>
+        <source>Modify configuration options for SuperTradeCoin Core</source>
+        <translation>Modify configuration options for SuperTradeCoin Core</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -472,8 +472,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+440"/>
-        <source>MineGoldCoin</source>
-        <translation>MineGoldCoin</translation>
+        <source>SuperTradeCoin</source>
+        <translation>SuperTradeCoin</translation>
     </message>
     <message>
         <location line="-652"/>
@@ -508,13 +508,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your MineGoldCoin addresses to prove you own them</source>
-        <translation>Sign messages with your MineGoldCoin addresses to prove you own them</translation>
+        <source>Sign messages with your SuperTradeCoin addresses to prove you own them</source>
+        <translation>Sign messages with your SuperTradeCoin addresses to prove you own them</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified MineGoldCoin addresses</source>
-        <translation>Verify messages to ensure they were signed with specified MineGoldCoin addresses</translation>
+        <source>Verify messages to ensure they were signed with specified SuperTradeCoin addresses</source>
+        <translation>Verify messages to ensure they were signed with specified SuperTradeCoin addresses</translation>
     </message>
     <message>
         <location line="+48"/>
@@ -544,18 +544,18 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-400"/>
-        <source>MineGoldCoin Core</source>
-        <translation type="unfinished">MineGoldCoin Core</translation>
+        <source>SuperTradeCoin Core</source>
+        <translation type="unfinished">SuperTradeCoin Core</translation>
     </message>
     <message>
         <location line="+162"/>
-        <source>Request payments (generates QR codes and minegoldcoin: URIs)</source>
+        <source>Request payments (generates QR codes and supertradecoin: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+29"/>
         <location line="+2"/>
-        <source>&amp;About MineGoldCoin Core</source>
+        <source>&amp;About SuperTradeCoin Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -570,7 +570,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+3"/>
-        <source>Open a minegoldcoin: URI or payment request</source>
+        <source>Open a supertradecoin: URI or payment request</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -580,21 +580,21 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Show the MineGoldCoin Core help message to get a list with possible command-line options</source>
+        <source>Show the SuperTradeCoin Core help message to get a list with possible command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+159"/>
         <location line="+5"/>
-        <source>MineGoldCoin client</source>
-        <translation>MineGoldCoin client</translation>
+        <source>SuperTradeCoin client</source>
+        <translation>SuperTradeCoin client</translation>
     </message>
     <message numerus="yes">
         <location line="+142"/>
-        <source>%n active connection(s) to MineGoldCoin network</source>
+        <source>%n active connection(s) to SuperTradeCoin network</source>
         <translation>
-            <numerusform>%n active connection to MineGoldCoin network</numerusform>
-            <numerusform>%n active connections to MineGoldCoin network</numerusform>
+            <numerusform>%n active connection to SuperTradeCoin network</numerusform>
+            <numerusform>%n active connections to SuperTradeCoin network</numerusform>
         </translation>
     </message>
     <message>
@@ -725,8 +725,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+447"/>
-        <source>A fatal error occurred. MineGoldCoin Core can no longer continue safely and will quit.</source>
-        <translation>A fatal error occurred. MineGoldCoin Core can no longer continue safely and will quit.</translation>
+        <source>A fatal error occurred. SuperTradeCoin Core can no longer continue safely and will quit.</source>
+        <translation>A fatal error occurred. SuperTradeCoin Core can no longer continue safely and will quit.</translation>
     </message>
 </context>
 <context>
@@ -1088,8 +1088,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid MineGoldCoin address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid MineGoldCoin address.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid SuperTradeCoin address.</source>
+        <translation>The entered address &quot;%1&quot; is not a valid SuperTradeCoin address.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1134,13 +1134,13 @@ Address: %4
     <name>HelpMessageDialog</name>
     <message>
         <location filename="../forms/helpmessagedialog.ui" line="+19"/>
-        <source>MineGoldCoin Core - Command-line options</source>
+        <source>SuperTradeCoin Core - Command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../utilitydialog.cpp" line="+24"/>
-        <source>MineGoldCoin Core</source>
-        <translation type="unfinished">MineGoldCoin Core</translation>
+        <source>SuperTradeCoin Core</source>
+        <translation type="unfinished">SuperTradeCoin Core</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1197,17 +1197,17 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to MineGoldCoin Core.</source>
+        <source>Welcome to SuperTradeCoin Core.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where MineGoldCoin Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where SuperTradeCoin Core will store its data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>MineGoldCoin Core will download and store a copy of the MineGoldCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>SuperTradeCoin Core will download and store a copy of the SuperTradeCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1222,8 +1222,8 @@ Address: %4
     </message>
     <message>
         <location filename="../intro.cpp" line="+82"/>
-        <source>MineGoldCoin</source>
-        <translation type="unfinished">MineGoldCoin</translation>
+        <source>SuperTradeCoin</source>
+        <translation type="unfinished">SuperTradeCoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1298,13 +1298,13 @@ Address: %4
     </message>
     <message>
         <location line="-125"/>
-        <source>Automatically start MineGoldCoin Core after logging in to the system.</source>
-        <translation>Automatically start MineGoldCoin Core after logging in to the system.</translation>
+        <source>Automatically start SuperTradeCoin Core after logging in to the system.</source>
+        <translation>Automatically start SuperTradeCoin Core after logging in to the system.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start MineGoldCoin Core on system login</source>
-        <translation>&amp;Start MineGoldCoin Core on system login</translation>
+        <source>&amp;Start SuperTradeCoin Core on system login</source>
+        <translation>&amp;Start SuperTradeCoin Core on system login</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1323,7 +1323,7 @@ Address: %4
     </message>
     <message>
         <location line="+160"/>
-        <source>Connect to the MineGoldCoin network through a SOCKS proxy.</source>
+        <source>Connect to the SuperTradeCoin network through a SOCKS proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1399,8 +1399,8 @@ Address: %4
     </message>
     <message>
         <location line="+17"/>
-        <source>Automatically open the MineGoldCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the MineGoldCoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the SuperTradeCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the SuperTradeCoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1469,8 +1469,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting MineGoldCoin Core.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting MineGoldCoin Core.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting SuperTradeCoin Core.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting SuperTradeCoin Core.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1484,8 +1484,8 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show MineGoldCoin addresses in the transaction list or not.</source>
-        <translation>Whether to show MineGoldCoin addresses in the transaction list or not.</translation>
+        <source>Whether to show SuperTradeCoin addresses in the transaction list or not.</source>
+        <translation>Whether to show SuperTradeCoin addresses in the transaction list or not.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1554,8 +1554,8 @@ Address: %4
     <message>
         <location line="+50"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the MineGoldCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the MineGoldCoin network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SuperTradeCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the SuperTradeCoin network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-238"/>
@@ -1624,8 +1624,8 @@ Address: %4
     </message>
     <message>
         <location line="+1"/>
-        <source>URI can not be parsed! This can be caused by an invalid MineGoldCoin address or malformed URI parameters.</source>
-        <translation type="unfinished">URI can not be parsed! This can be caused by an invalid MineGoldCoin address or malformed URI parameters.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid SuperTradeCoin address or malformed URI parameters.</source>
+        <translation type="unfinished">URI can not be parsed! This can be caused by an invalid SuperTradeCoin address or malformed URI parameters.</translation>
     </message>
     <message>
         <location line="+96"/>
@@ -1644,7 +1644,7 @@ Address: %4
     </message>
     <message>
         <location line="-353"/>
-        <source>Cannot start minegoldcoin: click-to-pay handler</source>
+        <source>Cannot start supertradecoin: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1714,8 +1714,8 @@ Address: %4
         <location filename="../bitcoin.cpp" line="+71"/>
         <location line="+7"/>
         <location line="+13"/>
-        <source>MineGoldCoin</source>
-        <translation>MineGoldCoin</translation>
+        <source>SuperTradeCoin</source>
+        <translation>SuperTradeCoin</translation>
     </message>
     <message>
         <location line="-19"/>
@@ -1734,13 +1734,13 @@ Address: %4
     </message>
     <message>
         <location line="+60"/>
-        <source>MineGoldCoin Core didn&apos;t yet exit safely...</source>
+        <source>SuperTradeCoin Core didn&apos;t yet exit safely...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+89"/>
-        <source>Enter a MineGoldCoin address (e.g. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</source>
-        <translation type="unfinished">Enter a MineGoldCoin address (e.g. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</translation>
+        <source>Enter a SuperTradeCoin address (e.g. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</source>
+        <translation type="unfinished">Enter a SuperTradeCoin address (e.g. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</translation>
     </message>
 </context>
 <context>
@@ -1902,8 +1902,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the MineGoldCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the MineGoldCoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the SuperTradeCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the SuperTradeCoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <location line="+76"/>
@@ -1912,8 +1912,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-35"/>
-        <source>Welcome to the MineGoldCoin RPC console.</source>
-        <translation>Welcome to the MineGoldCoin RPC console.</translation>
+        <source>Welcome to the SuperTradeCoin RPC console.</source>
+        <translation>Welcome to the SuperTradeCoin RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1991,7 +1991,7 @@ Address: %4
     <message>
         <location line="+14"/>
         <location line="+23"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the MineGoldCoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the SuperTradeCoin network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2387,7 +2387,7 @@ Address: %4
     </message>
     <message>
         <location line="+113"/>
-        <source>Warning: Invalid MineGoldCoin address</source>
+        <source>Warning: Invalid SuperTradeCoin address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2499,7 +2499,7 @@ Address: %4
     </message>
     <message>
         <location line="+33"/>
-        <source>A message that was attached to the minegoldcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the MineGoldCoin network.</source>
+        <source>A message that was attached to the supertradecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the SuperTradeCoin network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2524,7 +2524,7 @@ Address: %4
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+52"/>
-        <source>MineGoldCoin Core is shutting down...</source>
+        <source>SuperTradeCoin Core is shutting down...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2594,8 +2594,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this MineGoldCoin address</source>
-        <translation>Sign the message to prove you own this MineGoldCoin address</translation>
+        <source>Sign the message to prove you own this SuperTradeCoin address</source>
+        <translation>Sign the message to prove you own this SuperTradeCoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2630,8 +2630,8 @@ Address: %4
     </message>
     <message>
         <location line="+37"/>
-        <source>Verify the message to ensure it was signed with the specified MineGoldCoin address</source>
-        <translation>Verify the message to ensure it was signed with the specified MineGoldCoin address</translation>
+        <source>Verify the message to ensure it was signed with the specified SuperTradeCoin address</source>
+        <translation>Verify the message to ensure it was signed with the specified SuperTradeCoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2645,8 +2645,8 @@ Address: %4
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+30"/>
-        <source>Enter a MineGoldCoin address (e.g. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</source>
-        <translation>Enter a MineGoldCoin address (e.g. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</translation>
+        <source>Enter a SuperTradeCoin address (e.g. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</source>
+        <translation>Enter a SuperTradeCoin address (e.g. M8v4Xmchfj8PdCdPaLg6bTGJtZDt8mKT6a)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2724,12 +2724,12 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+32"/>
-        <source>MineGoldCoin Core</source>
-        <translation type="unfinished">MineGoldCoin Core</translation>
+        <source>SuperTradeCoin Core</source>
+        <translation type="unfinished">SuperTradeCoin Core</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>The MineGoldCoin Core developers</source>
+        <source>The SuperTradeCoin Core developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3323,7 +3323,7 @@ Address: %4
     </message>
 </context>
 <context>
-    <name>minegoldcoin-core</name>
+    <name>supertradecoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+262"/>
         <source>Usage:</source>
@@ -3346,13 +3346,13 @@ Address: %4
     </message>
     <message>
         <location line="+32"/>
-        <source>Specify configuration file (default: minegoldcoin.conf)</source>
-        <translation>Specify configuration file (default: minegoldcoin.conf)</translation>
+        <source>Specify configuration file (default: supertradecoin.conf)</source>
+        <translation>Specify configuration file (default: supertradecoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: minegoldcoind.pid)</source>
-        <translation>Specify pid file (default: minegoldcoind.pid)</translation>
+        <source>Specify pid file (default: supertradecoind.pid)</source>
+        <translation>Specify pid file (default: supertradecoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -3361,8 +3361,8 @@ Address: %4
     </message>
     <message>
         <location line="-46"/>
-        <source>Listen for connections on &lt;port&gt; (default: 34437 or testnet: 44556)</source>
-        <translation>Listen for connections on &lt;port&gt; (default: 34437 or testnet: 44556)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 46637 or testnet: 44556)</source>
+        <translation>Listen for connections on &lt;port&gt; (default: 46637 or testnet: 44556)</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -3396,8 +3396,8 @@ Address: %4
     </message>
     <message>
         <location line="+50"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 34436 or testnet: 44555)</source>
-        <translation>Listen for JSON-RPC connections on &lt;port&gt; (default: 34436 or testnet: 44555)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 46636 or testnet: 44555)</source>
+        <translation>Listen for JSON-RPC connections on &lt;port&gt; (default: 46636 or testnet: 44555)</translation>
     </message>
     <message>
         <location line="+51"/>
@@ -3406,7 +3406,7 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>MineGoldCoin Core RPC client version</source>
+        <source>SuperTradeCoin Core RPC client version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3429,24 +3429,24 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=minegoldcoinrpc
+rpcuser=supertradecoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;SuperTradeCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=minegoldcoinrpc
+rpcuser=supertradecoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;SuperTradeCoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3536,7 +3536,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admin
     </message>
     <message>
         <location line="+3"/>
-        <source>Unable to bind to %s on this computer. MineGoldCoin Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. SuperTradeCoin Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3551,8 +3551,8 @@ for example: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admin
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong MineGoldCoin Core will not work properly.</source>
-        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong MineGoldCoin Core will not work properly.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong SuperTradeCoin Core will not work properly.</source>
+        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong SuperTradeCoin Core will not work properly.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3596,7 +3596,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admin
     </message>
     <message>
         <location line="+1"/>
-        <source>MineGoldCoin Core Daemon</source>
+        <source>SuperTradeCoin Core Daemon</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3621,7 +3621,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admin
     </message>
     <message>
         <location line="+1"/>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 34436 or testnet: 44555)</source>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 46636 or testnet: 44555)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3856,7 +3856,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admin
     </message>
     <message>
         <location line="+10"/>
-        <source>Usage (deprecated, use minegoldcoin-cli):</source>
+        <source>Usage (deprecated, use supertradecoin-cli):</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3901,7 +3901,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admin
     </message>
     <message>
         <location line="-150"/>
-        <source>Cannot obtain a lock on data directory %s. MineGoldCoin Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. SuperTradeCoin Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4011,7 +4011,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admin
     </message>
     <message>
         <location line="+2"/>
-        <source>Send command to MineGoldCoin Core</source>
+        <source>Send command to SuperTradeCoin Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4056,7 +4056,7 @@ for example: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admin
     </message>
     <message>
         <location line="+6"/>
-        <source>Start MineGoldCoin Core Daemon</source>
+        <source>Start SuperTradeCoin Core Daemon</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4201,13 +4201,13 @@ for example: alertnotify=echo %%s | mail -s &quot;MineGoldCoin Alert&quot; admin
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of MineGoldCoin Core</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of MineGoldCoin Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of SuperTradeCoin Core</source>
+        <translation>Error loading wallet.dat: Wallet requires newer version of SuperTradeCoin Core</translation>
     </message>
     <message>
         <location line="+113"/>
-        <source>Wallet needed to be rewritten: restart MineGoldCoin Core to complete</source>
-        <translation>Wallet needed to be rewritten: restart MineGoldCoin Core to complete</translation>
+        <source>Wallet needed to be rewritten: restart SuperTradeCoin Core to complete</source>
+        <translation>Wallet needed to be rewritten: restart SuperTradeCoin Core to complete</translation>
     </message>
     <message>
         <location line="-115"/>

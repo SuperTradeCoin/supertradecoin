@@ -91,8 +91,8 @@ public:
         pchMessageStart[2] = 0xb4;
         pchMessageStart[3] = 0xd5;
         vAlertPubKey = ParseHex("04d4da7a5dae4db797d9b0644d57a5cd50e05a70f36091cd62e2fc41c98ded06340be5a43a35e185690cd9cde5d72da8f6d065b499b06f51dcfba14aad859f443a");
-        nDefaultPort = 34437;
-        nRPCPort = 34436;
+        nDefaultPort = 46637;
+        nRPCPort = 46636;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);
         nSubsidyHalvingInterval = 210000;
 
@@ -123,10 +123,13 @@ public:
         assert(hashGenesisBlock == uint256("0x1a91e3dace36e2be3bf030a65679fe821aa1d6ef92e7c9902eb318182c355691"));
         assert(genesis.hashMerkleRoot == uint256("0x5b2a3f53f605d62c53e62932dac6925e3d74afa5a4b459745c36d42d0ed26a69"));
 
-        vSeeds.push_back(CDNSSeedData("192.168.193.135", "192.168.193.137"));
+        vSeeds.push_back(CDNSSeedData("seed1.supertradecoin.net", "seed.supertradecoin.com"));
+        vSeeds.push_back(CDNSSeedData("seed2.supertradecoin.net", "seed3.supertradecoin.net"));
+        vSeeds.push_back(CDNSSeedData("seed1.supertradecoin.com", "supertradecoin.com"));
+        vSeeds.push_back(CDNSSeedData("explorer.supertradecoin.com",  "pool.supertradecoin.com"));
        
         // Workaround for Boost not being quite compatible with C++11;
-        std::vector<unsigned char> pka = list_of(50);
+        std::vector<unsigned char> pka = list_of(63);
         base58Prefixes[PUBKEY_ADDRESS] = pka;
         
         std::vector<unsigned char> sca = list_of(22);
@@ -184,8 +187,8 @@ public:
         pchMessageStart[2] = 0xb4;
         pchMessageStart[3] = 0xd5;
         vAlertPubKey = ParseHex("042756726da3c7ef515d89212ee1705023d14be389e25fe15611585661b9a20021908b2b80a3c7200a0139dd2b26946606aab0eef9aa7689a6dc2c7eee237fa834");
-        nDefaultPort = 34437;
-        nRPCPort = 34436;
+        nDefaultPort = 46637;
+        nRPCPort = 46636;
         strDataDir = "testnet3";
 
         // Modify the testnet genesis block so the timestamp is valid for a later start.
@@ -196,12 +199,11 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("192.168.193.137", "192.168.193.135"));
-        
+        vSeeds.push_back(CDNSSeedData("192.168.193.137", "192.168.193.160"));
 
         // Boost sucks, and should not be used. Workaround for Boost not being compatible with C++11;
         
-        std::vector<unsigned char> pka = list_of(50);
+        std::vector<unsigned char> pka = list_of(63);
         base58Prefixes[PUBKEY_ADDRESS] = pka;
         std::vector<unsigned char> sca = list_of(196);
         base58Prefixes[SCRIPT_ADDRESS] = sca;
@@ -222,9 +224,9 @@ static CTestNetParams testNetParams;
 class CRegTestParams : public CTestNetParams {
 public:
     CRegTestParams() {
-        pchMessageStart[0] = 0xf2;
-        pchMessageStart[1] = 0xc3;
-        pchMessageStart[2] = 0xb4;
+        pchMessageStart[0] = 0xf3;
+        pchMessageStart[1] = 0xc4;
+        pchMessageStart[2] = 0xb2;
         pchMessageStart[3] = 0xd5;
         nSubsidyHalvingInterval = 150;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 1);
@@ -232,7 +234,7 @@ public:
         genesis.nBits = 0x207fffff;
         genesis.nNonce = 2;
         hashGenesisBlock = genesis.GetHash();
-        nDefaultPort = 34437;
+        nDefaultPort = 46637;
         strDataDir = "regtest";
         assert(hashGenesisBlock == uint256("0x3d2160a3b5dc4a9d62e7e66a295f70313ac808440ef7400d6c0772171ce973a5"));
 
@@ -285,4 +287,5 @@ bool SelectParamsFromCommandLine() {
     }
     return true;
 }
+
 

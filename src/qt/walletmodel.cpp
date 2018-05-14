@@ -282,7 +282,7 @@ WalletModel::SendCoinsReturn WalletModel::sendCoins(WalletModelTransaction &tran
                 rcp.paymentRequest.SerializeToString(&value);
                 newTx->vOrderForm.push_back(make_pair(key, value));
             }
-            else if (!rcp.message.isEmpty()) // Message from normal minegoldcoin:URI (minegoldcoin:D12...?message=example)
+            else if (!rcp.message.isEmpty()) // Message from normal supertradecoin:URI (supertradecoin:D12...?message=example)
                 newTx->vOrderForm.push_back(make_pair("Message", rcp.message.toStdString()));
         }
 

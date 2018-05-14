@@ -1,0 +1,11 @@
+[Protocol]
+exec=supertradecoin-qt '%u'
+protocol=supertradecoin
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

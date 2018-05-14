@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2011-2013 The Litecoin developers
-// Copyright (c) 2013-2014 The MineGoldCoin developers
+// Copyright (c) 2013-2014 The SuperTradeCoin developers
 // Copyright (c)      2014 The Inutoshi developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -448,7 +448,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
             return error("AUX POW parent hash %s is not under target %s", auxpow->GetParentBlockHash().GetHex().c_str(), hashTarget.GetHex().c_str());
         
         // print to log
-        LogPrintf("MineGoldCoinMiner: AUX proof-of-work found; our hash: %s ; parent hash: %s ; target: %s\n",
+        LogPrintf("SuperTradeCoinMiner: AUX proof-of-work found; our hash: %s ; parent hash: %s ; target: %s\n",
                hash.GetHex().c_str(),
                auxpow->GetParentBlockHash().GetHex().c_str(),
                hashTarget.GetHex().c_str());
@@ -459,7 +459,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
             return false;
 
         // print to log
-        LogPrintf("MineGoldCoinMiner: proof-of-work found; hash: %s ; target: %s\n", hash.GetHex().c_str(), hashTarget.GetHex().c_str());
+        LogPrintf("SuperTradeCoinMiner: proof-of-work found; hash: %s ; target: %s\n", hash.GetHex().c_str(), hashTarget.GetHex().c_str());
     }
     
     pblock->print();
@@ -469,7 +469,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     {
         LOCK(cs_main);
         if (pblock->hashPrevBlock != chainActive.Tip()->GetBlockHash())
-            return error("MineGoldCoinMiner : generated block is stale");
+            return error("SuperTradeCoinMiner : generated block is stale");
 
         // Remove key from key pool
         reservekey.KeepKey();
@@ -483,17 +483,17 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         // Process this block the same as if we had received it from another node
         CValidationState state;
         if (!ProcessBlock(state, NULL, pblock))
-            return error("MineGoldCoinMiner : ProcessBlock, block not accepted");
+            return error("SuperTradeCoinMiner : ProcessBlock, block not accepted");
     }
 
     return true;
 }
 
-void static MineGoldCoinMiner(CWallet *pwallet)
+void static SuperTradeCoinMiner(CWallet *pwallet)
 {
-    LogPrintf("MineGoldCoinMiner started\n");
+    LogPrintf("SuperTradeCoinMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("minegoldcoin-miner");
+    RenameThread("supertradecoin-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);
@@ -519,7 +519,7 @@ void static MineGoldCoinMiner(CWallet *pwallet)
         CBlock *pblock = &pblocktemplate->block;
         IncrementExtraNonce(pblock, pindexPrev, nExtraNonce);
 
-        LogPrintf("Running MineGoldCoinMiner with %" PRIszu" transactions in block (%u bytes)\n", pblock->vtx.size(),
+        LogPrintf("Running SuperTradeCoinMiner with %" PRIszu" transactions in block (%u bytes)\n", pblock->vtx.size(),
                ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
 
         //
@@ -625,7 +625,7 @@ void static MineGoldCoinMiner(CWallet *pwallet)
     } }
     catch (boost::thread_interrupted)
     {
-        LogPrintf("MineGoldCoinMiner terminated\n");
+        LogPrintf("SuperTradeCoinMiner terminated\n");
         throw;
     }
 }
@@ -653,7 +653,7 @@ void GenerateBitcoins(bool fGenerate, CWallet* pwallet, int nThreads)
 
     minerThreads = new boost::thread_group();
     for (int i = 0; i < nThreads; i++)
-        minerThreads->create_thread(boost::bind(&MineGoldCoinMiner, pwallet));
+        minerThreads->create_thread(boost::bind(&SuperTradeCoinMiner, pwallet));
 }
 
 #endif
